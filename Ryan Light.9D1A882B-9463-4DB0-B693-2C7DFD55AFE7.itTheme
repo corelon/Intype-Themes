@@ -1,0 +1,140 @@
+{
+	title: "Ryan Light"
+	settings: [
+		{
+			settings: {
+				background: "#FFFFFF"
+				caret: "#000000"
+				foreground: "#000000"
+				invisibles: "#BFBFBF"
+				line_highlight: "#EFEFEF"
+				selection: "#C3DCFF"
+			}
+		}
+		{
+			title: "Comment"
+			scope: "comment"
+			settings: {
+				font_style: "italic"
+				foreground: "#808080"
+			}
+		}
+		{
+			title: "Keyword"
+			scope: "keyword, storage"
+			settings: {
+				font_style: ""
+				foreground: "#006A08"
+			}
+		}
+		{
+			title: "Function (definition)"
+			scope: "entity.name.function, keyword.other.name-of-parameter.objc"
+			settings: {
+				font_style: ""
+				foreground: "#820095"
+			}
+		}
+		{
+			title: "Class (definition)"
+			scope: "entity.name"
+			settings: {
+				foreground: "#0802D3"
+			}
+		}
+		{
+			title: "Number"
+			scope: "constant.numeric"
+			settings: {
+				font_style: ""
+				foreground: "#0900D3"
+			}
+		}
+		{
+			title: "Variable"
+			scope: "variable.language, variable.other"
+			settings: {
+				font_style: ""
+				foreground: "#7E3700"
+			}
+		}
+		{
+			title: "Constant"
+			scope: "constant, variable.other.constant"
+			settings: {
+				font_style: ""
+				foreground: "#A62B29"
+			}
+		}
+		{
+			title: "Constant (built-in)"
+			scope: "constant.language"
+			settings: {
+				font_style: ""
+				foreground: "#0000CD"
+			}
+		}
+		{
+			title: "String"
+			scope: "string"
+			settings: {
+				font_style: ""
+				foreground: "#0E8D90"
+			}
+		}
+		{
+			title: "Library function"
+			scope: "support.function"
+			settings: {
+				font_style: ""
+				foreground: "#010E83"
+			}
+		}
+		{
+			title: "Library type"
+			scope: "support.type"
+			settings: {
+				foreground: "#006A09"
+			}
+		}
+		{
+			title: "Library constant"
+			scope: "support.constant"
+			settings: {
+				foreground: "#006A09"
+			}
+		}
+		{
+			title: "Markup tag"
+			scope: "meta.tag, declaration.tag, entity.name.tag, entity.other.attribute-name"
+			settings: {
+				font_style: ""
+				foreground: "#2D439B"
+			}
+		}
+		{
+			title: "Invalid"
+			scope: "invalid"
+			settings: {
+				background: "#990000"
+				foreground: "#FFFFFF"
+			}
+		}
+		{
+			title: "Embedded Ruby Source"
+			scope: "text source.ruby"
+			settings: {
+				background: "#FFFADE"
+				foreground: "#000000"
+			}
+		}
+		{
+			title: "String interpolation"
+			scope: "constant.character.escaped, constant.character.escape, string source, string source.ruby"
+			settings: {
+				font_style: ""
+				foreground: "#26B31A"
+			}
+		}
+	]
+}

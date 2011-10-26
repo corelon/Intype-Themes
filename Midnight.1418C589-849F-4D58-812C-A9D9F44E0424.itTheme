@@ -1,0 +1,215 @@
+{
+	author: "Domenico Carbotta"
+	title: "Midnight"
+	settings: [
+		{
+			settings: {
+				background: "#0A001FE3"
+				caret: "#FFFFFFA6"
+				foreground: "#F8F8F8"
+				invisibles: "#FFFFFF40"
+				line_highlight: "#3C1EFF4D"
+				selection: "#2500FF85"
+			}
+		}
+		{
+			title: "Comment"
+			scope: "comment"
+			settings: {
+				font_style: ""
+				foreground: "#6900A1"
+			}
+		}
+		{
+			title: "Constant"
+			scope: "constant"
+			settings: {
+				font_style: ""
+				foreground: "#FFD500"
+			}
+		}
+		{
+			title: "Entity"
+			scope: "entity"
+			settings: {
+				font_style: ""
+				foreground: "#845DC4"
+			}
+		}
+		{
+			title: "Keyword"
+			scope: "keyword"
+			settings: {
+				font_style: ""
+				foreground: "#599EFF"
+			}
+		}
+		{
+			title: "Storage"
+			scope: "storage"
+			settings: {
+				font_style: ""
+				foreground: "#75AFFF"
+			}
+		}
+		{
+			title: "String"
+			scope: "string, meta.verbatim"
+			settings: {
+				font_style: ""
+				foreground: "#00F13A"
+			}
+		}
+		{
+			title: "Support"
+			scope: "support"
+			settings: {
+				font_style: ""
+				foreground: "#7678E2"
+			}
+		}
+		{
+			title: "Variable"
+			scope: "variable"
+			settings: {
+				font_style: ""
+				foreground: "#99B2FF"
+			}
+		}
+		{
+			title: "Invalid – Deprecated"
+			scope: "invalid.deprecated"
+			settings: {
+				font_style: "italic"
+				foreground: "#AB2A1D"
+			}
+		}
+		{
+			title: "Invalid – Illegal"
+			scope: "invalid.illegal"
+			settings: {
+				background: "#9D1E15"
+				foreground: "#F8F8F8"
+			}
+		}
+		{
+			title: "Superclass"
+			scope: "entity.other.inherited-class"
+			settings: {
+				font_style: "italic"
+				foreground: "#9149C4"
+			}
+		}
+		{
+			title: "String interpolation"
+			scope: "string constant.other.placeholder"
+			settings: {
+				font_style: ""
+				foreground: "#FF6400"
+			}
+		}
+		{
+			title: "meta.function-call.py"
+			scope: "meta.function-call.py"
+			settings: {
+				font_style: ""
+				foreground: "#BECDE6"
+			}
+		}
+		{
+			title: "meta.tag"
+			scope: "meta.tag, meta.tag entity"
+			settings: {
+				foreground: "#8860FF"
+			}
+		}
+		{
+			title: "entity.name.section"
+			scope: "entity.name.section"
+			settings: {
+				font_style: ""
+				foreground: "#FFFFFF"
+			}
+		}
+		{
+			title: "OCaml variant"
+			scope: "keyword.type.variant"
+			settings: {
+				foreground: "#D5E0F3"
+			}
+		}
+		{
+			title: "OCaml operator"
+			scope: "source.ocaml keyword.operator.symbol"
+			settings: {
+				foreground: "#F8F8F8"
+			}
+		}
+		{
+			title: "OCaml infix operator"
+			scope: "source.ocaml keyword.operator.symbol.infix"
+			settings: {
+				font_style: ""
+				foreground: "#8DA6CE"
+			}
+		}
+		{
+			title: "OCaml prefix operator"
+			scope: "source.ocaml keyword.operator.symbol.prefix"
+			settings: {
+				font_style: ""
+				foreground: "#8DA6CE"
+			}
+		}
+		{
+			title: "OCaml f-p infix operator"
+			scope: "source.ocaml keyword.operator.symbol.infix.floating-point"
+			settings: {
+				font_style: "underline"
+			}
+		}
+		{
+			title: "OCaml f-p prefix operator"
+			scope: "source.ocaml keyword.operator.symbol.prefix.floating-point"
+			settings: {
+				font_style: "underline"
+			}
+		}
+		{
+			title: "OCaml f-p constant"
+			scope: "source.ocaml constant.numeric.floating-point"
+			settings: {
+				font_style: "underline"
+			}
+		}
+		{
+			title: "LaTeX environment"
+			scope: "text.tex.latex meta.function.environment"
+			settings: {
+				background: "#FFFFFF08"
+			}
+		}
+		{
+			title: "LaTeX environment (nested)"
+			scope: "text.tex.latex meta.function.environment meta.function.environment"
+			settings: {
+				background: "#7A96FA08"
+			}
+		}
+		{
+			title: "Latex support"
+			scope: "text.tex.latex support.function"
+			settings: {
+				font_style: ""
+				foreground: "#FBDE2D"
+			}
+		}
+		{
+			title: "PList unquoted string"
+			scope: "source.plist string.unquoted, source.plist keyword.operator"
+			settings: {
+				foreground: "#FFFFFF"
+			}
+		}
+	]
+}

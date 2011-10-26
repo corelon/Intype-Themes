@@ -1,0 +1,111 @@
+{
+	comment: "http://chriskempson.com"
+	title: "Tomorrow Night - Eighties"
+	settings: [
+		{
+			settings: {
+				background: "#2D2D2D"
+				caret: "#CCCCCC"
+				foreground: "#CCCCCC"
+				invisibles: "#6A6A6A"
+				line_highlight: "#393939"
+				selection: "#515151"
+			}
+		}
+		{
+			title: "Comment"
+			scope: "comment"
+			settings: {
+				foreground: "#999999"
+			}
+		}
+		{
+			title: "Foreground"
+			scope: "keyword.operator.class, constant.other, source.php.embedded.line"
+			settings: {
+				font_style: ""
+				foreground: "#CCCCCC"
+			}
+		}
+		{
+			title: "Variable, String Link, Tag Name"
+			scope: "variable, support.other.variable, string.other.link, entity.name.tag, entity.other.attribute-name, meta.tag, declaration.tag"
+			settings: {
+				foreground: "#F2777A"
+			}
+		}
+		{
+			title: "Number, Constant, Function Argument, Tag Attribute, Embedded"
+			scope: "constant.numeric, constant.language, support.constant, constant.character, variable.parameter, punctuation.section.embedded, keyword.other.unit"
+			settings: {
+				font_style: ""
+				foreground: "#F99157"
+			}
+		}
+		{
+			title: "Class, Support"
+			scope: "entity.name.class, entity.name.type.class, support.type, support.class"
+			settings: {
+				font_style: ""
+				foreground: "#FFCC66"
+			}
+		}
+		{
+			title: "String, Symbols, Inherited Class, Markup Heading"
+			scope: "string, constant.other.symbol, entity.other.inherited-class, markup.heading"
+			settings: {
+				font_style: ""
+				foreground: "#99CC99"
+			}
+		}
+		{
+			title: "Operator, Misc"
+			scope: "keyword.operator, constant.other.color"
+			settings: {
+				foreground: "#66CCCC"
+			}
+		}
+		{
+			title: "Function, Special Method, Block Level"
+			scope: "entity.name.function, meta.function-call, support.function, keyword.other.special-method, meta.block-level"
+			settings: {
+				font_style: ""
+				foreground: "#6699CC"
+			}
+		}
+		{
+			title: "Keyword, Storage"
+			scope: "keyword, storage, storage.type, entity.name.tag.css"
+			settings: {
+				font_style: ""
+				foreground: "#CC99CC"
+			}
+		}
+		{
+			title: "Invalid"
+			scope: "invalid"
+			settings: {
+				background: "#F2777A"
+				font_style: ""
+				foreground: "#CDCDCD"
+			}
+		}
+		{
+			title: "Separator"
+			scope: "meta.separator"
+			settings: {
+				background: "#99CCCC"
+				foreground: "#CDCDCD"
+			}
+		}
+		{
+			title: "Deprecated"
+			scope: "invalid.deprecated"
+			settings: {
+				background: "#CC99CC"
+				font_style: ""
+				foreground: "#CDCDCD"
+			}
+		}
+	]
+}

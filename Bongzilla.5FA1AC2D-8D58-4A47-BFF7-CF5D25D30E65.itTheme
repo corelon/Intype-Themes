@@ -1,0 +1,134 @@
+{
+	author: "Domenico Carbotta"
+	title: "Bongzilla"
+	settings: [
+		{
+			settings: {
+				background: "#1F1F1F"
+				caret: "#FFFFFFA6"
+				foreground: "#F8F8F8"
+				invisibles: "#FFFFFF40"
+				line_highlight: "#FFFFFF0F"
+				selection: "#253B76"
+			}
+		}
+		{
+			title: "Comment"
+			scope: "comment"
+			settings: {
+				font_style: ""
+				foreground: "#AEAEAE"
+			}
+		}
+		{
+			title: "Constant"
+			scope: "constant"
+			settings: {
+				font_style: ""
+				foreground: "#FF593E"
+			}
+		}
+		{
+			title: "Entity"
+			scope: "entity"
+			settings: {
+				font_style: ""
+				foreground: "#FF6400"
+			}
+		}
+		{
+			title: "Keyword"
+			scope: "keyword"
+			settings: {
+				font_style: ""
+				foreground: "#FFCC66"
+			}
+		}
+		{
+			title: "Storage"
+			scope: "storage"
+			settings: {
+				font_style: ""
+				foreground: "#FFCC66"
+			}
+		}
+		{
+			title: "String"
+			scope: "string, meta.verbatim"
+			settings: {
+				font_style: ""
+				foreground: "#78CE91"
+			}
+		}
+		{
+			title: "Support"
+			scope: "support"
+			settings: {
+				font_style: ""
+				foreground: "#8DA6CE"
+			}
+		}
+		{
+			title: "Variable"
+			scope: "variable"
+			settings: {
+				font_style: ""
+			}
+		}
+		{
+			title: "Invalid – Deprecated"
+			scope: "invalid.deprecated"
+			settings: {
+				font_style: "italic"
+				foreground: "#AB2A1D"
+			}
+		}
+		{
+			title: "Invalid – Illegal"
+			scope: "invalid.illegal"
+			settings: {
+				background: "#9D1E15"
+				foreground: "#F8F8F8"
+			}
+		}
+		{
+			title: "Superclass"
+			scope: "entity.other.inherited-class"
+			settings: {
+				font_style: "italic"
+				foreground: "#FF6400"
+			}
+		}
+		{
+			title: "String interpolation"
+			scope: "string constant.other.placeholder"
+			settings: {
+				font_style: ""
+				foreground: "#FF6400"
+			}
+		}
+		{
+			title: "meta.function-call.py"
+			scope: "meta.function-call.py"
+			settings: {
+				font_style: ""
+				foreground: "#BECDE6"
+			}
+		}
+		{
+			title: "meta.tag"
+			scope: "meta.tag, meta.tag entity"
+			settings: {
+				foreground: "#7F90AA"
+			}
+		}
+		{
+			title: "entity.name.section"
+			scope: "entity.name.section"
+			settings: {
+				font_style: ""
+				foreground: "#FFFFFF"
+			}
+		}
+	]
+}

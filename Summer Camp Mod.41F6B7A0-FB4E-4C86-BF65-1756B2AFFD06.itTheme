@@ -1,0 +1,137 @@
+{
+	author: "Chris Thomas"
+	title: "Summer Camp Mod"
+	settings: [
+		{
+			settings: {
+				background: "#110F0A"
+				caret: "#F2F8CB"
+				foreground: "#F2F8CB"
+				invisibles: "#F3771D"
+				line_highlight: "#14120B"
+				selection: "#433D2780"
+			}
+		}
+		{
+			title: "Comment"
+			scope: "comment"
+			settings: {
+				background: "#070604"
+				font_style: "italic"
+				foreground: "#2B2719"
+			}
+		}
+		{
+			title: "Keyword"
+			scope: "keyword, storage"
+			settings: {
+				font_style: ""
+				foreground: "#A3ED4E"
+			}
+		}
+		{
+			title: "Number"
+			scope: "constant.numeric"
+			settings: {
+				font_style: ""
+				foreground: "#3FA2ED"
+			}
+		}
+		{
+			title: "User-defined constant"
+			scope: "constant"
+			settings: {
+				font_style: ""
+				foreground: "#3A94DC"
+			}
+		}
+		{
+			title: "Built-in constant"
+			scope: "constant.language"
+			settings: {
+				font_style: ""
+				foreground: "#3588CA"
+			}
+		}
+		{
+			title: "Variable"
+			scope: "variable.language, variable.other"
+			settings: {
+				font_style: ""
+				foreground: "#F35E18"
+			}
+		}
+		{
+			title: "String"
+			scope: "string"
+			settings: {
+				font_style: ""
+				foreground: "#F39B19"
+			}
+		}
+		{
+			title: "String interpolation"
+			scope: "constant.character.escape, string source"
+			settings: {
+				font_style: ""
+				foreground: "#F3771D"
+			}
+		}
+		{
+			title: "Preprocessor line"
+			scope: "meta.preprocessor"
+			settings: {
+				font_style: ""
+				foreground: "#F39B19"
+			}
+		}
+		{
+			title: "Preprocessor directive"
+			scope: "keyword.control.import"
+			settings: {
+				font_style: ""
+				foreground: "#F3771D"
+			}
+		}
+		{
+			title: "Function name"
+			scope: "entity.name.function, support.function.any-method"
+			settings: {
+				font_style: ""
+				foreground: "#7DDE12"
+			}
+		}
+		{
+			title: "Type name"
+			scope: "entity.name.type"
+			settings: {
+				font_style: "italic"
+				foreground: "#EEF890"
+			}
+		}
+		{
+			title: "Inherited class name"
+			scope: "entity.other.inherited-class"
+			settings: {
+				font_style: "italic"
+				foreground: "#EEF890"
+			}
+		}
+		{
+			title: "Invalid"
+			scope: "invalid"
+			settings: {
+				background: "#F32119"
+				font_style: "italic"
+			}
+		}
+		{
+			title: "Invalid trailing whitespace"
+			scope: "invalid.deprecated.trailing-whitespace"
+			settings: {
+				background: "#F33A34"
+				font_style: "italic"
+			}
+		}
+	]
+}

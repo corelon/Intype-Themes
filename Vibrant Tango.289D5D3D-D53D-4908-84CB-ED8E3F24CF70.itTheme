@@ -1,0 +1,276 @@
+{
+	title: "Vibrant Tango"
+	settings: [
+		{
+			settings: {
+				background: "#191D1E"
+				caret: "#FBEC50"
+				foreground: "#FFFFFF"
+				invisibles: "#404040"
+				line_highlight: "#131413"
+				selection: "#434441"
+			}
+		}
+		{
+			title: "Text base"
+			scope: "text"
+			settings: {
+				foreground: "#FFFFFF"
+			}
+		}
+		{
+			title: "Inline Ruby Html"
+			scope: "source.ruby.rails.embedded.html"
+			settings: {
+
+			}
+		}
+		{
+			title: "Ruby Html"
+			scope: "text.html.ruby"
+			settings: {
+				foreground: "#FFFFFF"
+			}
+		}
+		{
+			title: "Ruby Number"
+			scope: "constant.numeric.ruby"
+			settings: {
+				foreground: "#8DE635"
+			}
+		}
+		{
+			title: "Ruby source"
+			scope: "source.ruby"
+			settings: {
+
+			}
+		}
+		{
+			title: "Source base"
+			scope: "source"
+			settings: {
+				foreground: "#FFFFFF"
+			}
+		}
+		{
+			title: "Comment"
+			scope: "comment"
+			settings: {
+				foreground: "#744E7B"
+			}
+		}
+		{
+			title: "Constant"
+			scope: "constant"
+			settings: {
+				foreground: "#739FCF"
+			}
+		}
+		{
+			title: "Keyword"
+			scope: "keyword"
+			settings: {
+				font_style: ""
+				foreground: "#F27709"
+			}
+		}
+		{
+			title: "Pre-processor Line"
+			scope: "keyword.preprocessor"
+			settings: {
+				font_style: ""
+				foreground: "#EDF8F9"
+			}
+		}
+		{
+			title: "Pre-processor Directive"
+			scope: "keyword.preprocessor directive"
+			settings: {
+				font_style: ""
+				foreground: "#FFFFFF"
+			}
+		}
+		{
+			title: "Function name"
+			scope: "entity.name.function, storage.type.function.js"
+			settings: {
+				font_style: ""
+				foreground: "#FBEB50"
+			}
+		}
+		{
+			title: "Function argument"
+			scope: "variable.parameter"
+			settings: {
+				font_style: "italic"
+			}
+		}
+		{
+			title: "Block comment"
+			scope: "source comment.block"
+			settings: {
+				background: "#070707"
+				foreground: "#744E7B"
+			}
+		}
+		{
+			title: "Variable"
+			scope: "variable.other"
+			settings: {
+				font_style: ""
+				foreground: "#FFFFFF"
+			}
+		}
+		{
+			title: "ActiveRecord Function"
+			scope: "support.function.activerecord.rails"
+			settings: {
+				foreground: "#E8B96F"
+			}
+		}
+		{
+			title: "String"
+			scope: "string"
+			settings: {
+				foreground: "#8DE635"
+			}
+		}
+		{
+			title: "String escapes"
+			scope: "string constant.character.escape"
+			settings: {
+				foreground: "#AAAAAA"
+			}
+		}
+		{
+			title: "String (executed)"
+			scope: "string.interpolated"
+			settings: {
+				background: "#FBEB50"
+				foreground: "#000000"
+			}
+		}
+		{
+			title: "Regular expression"
+			scope: "string.regexp"
+			settings: {
+				foreground: "#739FCF"
+			}
+		}
+		{
+			title: "String (literal)"
+			scope: "string.literal"
+			settings: {
+				foreground: "#FBEB50"
+			}
+		}
+		{
+			title: "String escapes (executed)"
+			scope: "string.interpolated constant.character.escape"
+			settings: {
+				foreground: "#555555"
+			}
+		}
+		{
+			title: "Class name"
+			scope: "entity.name.class, support.class.js"
+			settings: {
+				font_style: "underline"
+			}
+		}
+		{
+			title: "Class inheritance"
+			scope: "entity.other.inherited-class"
+			settings: {
+				font_style: "italic underline"
+			}
+		}
+		{
+			title: "Tag name"
+			scope: "entity.name.tag"
+			settings: {
+				font_style: ""
+			}
+		}
+		{
+			title: "Html Meta"
+			scope: "meta.tag.inline.any.html,  meta.tag.block.any.html"
+			settings: {
+				font_style: ""
+				foreground: "#F27709"
+			}
+		}
+		{
+			title: "Tag attribute"
+			scope: "entity.other.attribute-name"
+			settings: {
+				font_style: "italic"
+				foreground: "#8DE635"
+			}
+		}
+		{
+			title: "Other Keywords"
+			scope: "keyword.other"
+			settings: {
+				foreground: "#FBEB50"
+			}
+		}
+		{
+			title: "CSS Selector"
+			scope: "meta.selector.css, entity.other.attribute-name.pseudo-class.css, entity.name.tag.wildcard.css, entity.other.attribute-name.id.css, entity.other.attribute-name.class.css"
+			settings: {
+				foreground: "#F27709"
+			}
+		}
+		{
+			title: "CSS Property"
+			scope: "support.type.property-name.css"
+			settings: {
+				foreground: "#E8B96F"
+			}
+		}
+		{
+			title: "CSS Other"
+			scope: "keyword.other.unit.css, constant.other.rgb-value.css, constant.numeric.css"
+			settings: {
+				foreground: "#FFFFFF"
+			}
+		}
+		{
+			title: "Javascript Events"
+			scope: "support.function.event-handler.js"
+			settings: {
+				foreground: "#FFFFFF"
+			}
+		}
+		{
+			title: "Javascript Operators"
+			scope: "keyword.operator.js"
+			settings: {
+				foreground: "#FFFFFF"
+			}
+		}
+		{
+			title: "Javascript Keywords"
+			scope: "keyword.control.js"
+			settings: {
+				foreground: "#FBEB50"
+			}
+		}
+		{
+			title: "Prototype Objects"
+			scope: "support.class.prototype.js"
+			settings: {
+				foreground: "#FFFFFF"
+			}
+		}
+		{
+			title: "Prototype Methods"
+			scope: "object.property.function.prototype.js"
+			settings: {
+				foreground: "#F27709"
+			}
+		}
+	]
+}

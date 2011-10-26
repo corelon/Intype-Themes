@@ -1,0 +1,171 @@
+{
+	title: "Birds of Paradise"
+	settings: [
+		{
+			settings: {
+				background: "#372725"
+				caret: "#E6E1C4"
+				foreground: "#E6E1C4"
+				invisibles: "#42302D"
+				line_highlight: "#1F1611"
+				selection: "#16120E"
+			}
+		}
+		{
+			title: "Source"
+			scope: "source"
+			settings: {
+				background: "#322323"
+				foreground: "#E6E1C4"
+			}
+		}
+		{
+			title: "Comment"
+			scope: "comment"
+			settings: {
+				font_style: "italic"
+				foreground: "#6B4E32"
+			}
+		}
+		{
+			title: "Keyword"
+			scope: "keyword, storage"
+			settings: {
+				font_style: ""
+				foreground: "#EF5D32"
+			}
+		}
+		{
+			title: "Function (definition)"
+			scope: "entity.name.function, keyword.other.name-of-parameter.objc"
+			settings: {
+				font_style: ""
+				foreground: "#EFAC32"
+			}
+		}
+		{
+			title: "Class (definition)"
+			scope: "entity.name"
+			settings: {
+				font_style: "bold"
+				foreground: "#EFAC32"
+			}
+		}
+		{
+			title: "Number"
+			scope: "constant.numeric"
+			settings: {
+				font_style: ""
+				foreground: "#6C99BB"
+			}
+		}
+		{
+			title: "Variable"
+			scope: "variable.language, variable.other"
+			settings: {
+				font_style: ""
+				foreground: "#7DAF9C"
+			}
+		}
+		{
+			title: "Constant"
+			scope: "constant"
+			settings: {
+				font_style: ""
+				foreground: "#6C99BB"
+			}
+		}
+		{
+			title: "Constant (other variable)"
+			scope: "variable.other.constant"
+			settings: {
+				foreground: "#EFAC32"
+			}
+		}
+		{
+			title: "Constant (built-in)"
+			scope: "constant.language"
+			settings: {
+				font_style: ""
+				foreground: "#6C99BB"
+			}
+		}
+		{
+			title: "String"
+			scope: "string"
+			settings: {
+				font_style: ""
+				foreground: "#D9D762"
+			}
+		}
+		{
+			title: "Library function"
+			scope: "support.function"
+			settings: {
+				font_style: ""
+				foreground: "#EFAC32"
+			}
+		}
+		{
+			title: "Library type"
+			scope: "support.type"
+			settings: {
+				foreground: "#EFAC32"
+			}
+		}
+		{
+			title: "Library constant"
+			scope: "support.constant"
+			settings: {
+				foreground: "#6C99BB"
+			}
+		}
+		{
+			title: "Markup tag"
+			scope: "meta.tag, declaration.tag, entity.name.tag, entity.other.attribute-name"
+			settings: {
+				font_style: ""
+				foreground: "#EFCB43"
+			}
+		}
+		{
+			title: "Invalid"
+			scope: "invalid"
+			settings: {
+				background: "#990000"
+				foreground: "#FFFFFF"
+			}
+		}
+		{
+			title: "String interpolation"
+			scope: "constant.character.escaped, constant.character.escape, string source, string source.ruby"
+			settings: {
+				font_style: ""
+				foreground: "#7DAF9C"
+			}
+		}
+		{
+			title: "Diff Add"
+			scope: "markup.inserted"
+			settings: {
+				background: "#144212"
+				foreground: "#E6E1DC"
+			}
+		}
+		{
+			title: "Diff Remove"
+			scope: "markup.deleted"
+			settings: {
+				background: "#660000"
+				foreground: "#E6E1DC"
+			}
+		}
+		{
+			title: "Diff Header"
+			scope: "meta.diff.header, meta.separator.diff, meta.diff.index, meta.diff.range"
+			settings: {
+				background: "#2F33AB"
+			}
+		}
+	]
+}

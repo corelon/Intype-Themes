@@ -1,0 +1,114 @@
+{
+	title: "MultiMarkdown"
+	settings: [
+		{
+			settings: {
+				background: "#FFFFFF"
+				caret: "#000000"
+				foreground: "#000000"
+				invisibles: "#BFBFBF"
+				line_highlight: "#00000012"
+				selection: "#B5D8F7"
+			}
+		}
+		{
+			title: "MultiMarkdown Metadata"
+			scope: "meta.header.multimarkdown"
+			settings: {
+				background: "#FFFFFF"
+				foreground: "#979797"
+			}
+		}
+		{
+			title: "MultiMarkdown meta key"
+			scope: "meta.header.key.multimarkdown"
+			settings: {
+				font_style: "underline"
+			}
+		}
+		{
+			title: "MultiMarkdown meta value"
+			scope: "meta.header.value.multimarkdown"
+			settings: {
+
+			}
+		}
+		{
+			title: "Markdown Heading"
+			scope: "markup.heading.markdown"
+			settings: {
+				font_style: "bold underline"
+			}
+		}
+		{
+			title: "Markdown Table"
+			scope: "markup.table.multimarkdown"
+			settings: {
+				foreground: "#FF0000"
+			}
+		}
+		{
+			title: "Markdown Link Def"
+			scope: "meta.link.reference.def.markdown"
+			settings: {
+				foreground: "#21FF0A"
+			}
+		}
+		{
+			title: "MultiMarkdown Footnote Def"
+			scope: "meta.footnote.reference.def.multimarkdown"
+			settings: {
+				foreground: "#FF8D04"
+			}
+		}
+		{
+			title: "MultiMarkdown Citation Def"
+			scope: "meta.citation.reference.def.multimarkdown"
+			settings: {
+				foreground: "#0ABFFF"
+			}
+		}
+		{
+			title: "Markdown Code Block"
+			scope: "markup.raw.block.markdown"
+			settings: {
+				background: "#E5E5E5"
+			}
+		}
+		{
+			title: "MultiMarkdown Math"
+			scope: "markup.math.multimarkdown"
+			settings: {
+				background: "#E5E5E5"
+			}
+		}
+		{
+			title: "Markdown Code Span"
+			scope: "markup.raw.inline.markdown"
+			settings: {
+				font_style: "bold"
+			}
+		}
+		{
+			title: "Markdown Quote"
+			scope: "markup.quote.markdown"
+			settings: {
+				background: "#E5E5E5"
+			}
+		}
+		{
+			title: "Possible Citation"
+			scope: "citation.possible"
+			settings: {
+				foreground: "#FF0093"
+			}
+		}
+		{
+			title: "Markdown link"
+			scope: "meta.link"
+			settings: {
+				foreground: "#0205F0"
+			}
+		}
+	]
+}

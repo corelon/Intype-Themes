@@ -1,0 +1,245 @@
+{
+	title: "Black Pearl"
+	settings: [
+		{
+			settings: {
+				background: "#000000"
+				caret: "#FFFFFF"
+				foreground: "#FFFFFF"
+				invisibles: "#404040"
+				line_highlight: "#FFFFFF0D"
+				selection: "#FFFFFF26"
+			}
+		}
+		{
+			title: "Text base"
+			scope: "text"
+			settings: {
+				background: "#00000000"
+				foreground: "#B4D3E2"
+			}
+		}
+		{
+			title: "Source base"
+			scope: "source"
+			settings: {
+				background: "#00000000"
+				foreground: "#FFFFFF"
+			}
+		}
+		{
+			title: "Comment"
+			scope: "comment"
+			settings: {
+				font_style: "italic"
+				foreground: "#428BDD"
+			}
+		}
+		{
+			title: "Constant"
+			scope: "constant"
+			settings: {
+				foreground: "#8AA6C1"
+			}
+		}
+		{
+			title: "Keyword"
+			scope: "keyword"
+			settings: {
+				font_style: ""
+				foreground: "#8AA6C1"
+			}
+		}
+		{
+			title: "Control"
+			scope: "keyword.control"
+			settings: {
+				font_style: ""
+				foreground: "#F8BB00"
+			}
+		}
+		{
+			title: "Type"
+			scope: "storage"
+			settings: {
+				font_style: ""
+				foreground: "#80D500"
+			}
+		}
+		{
+			title: "Pre-processor Line"
+			scope: "other.preprocessor.c"
+			settings: {
+				background: "#00000000"
+				font_style: ""
+				foreground: "#B6B9F9"
+			}
+		}
+		{
+			title: "Function argument"
+			scope: "variable.parameter"
+			settings: {
+				font_style: "italic"
+				foreground: "#8AA6C1"
+			}
+		}
+		{
+			title: "Block comment"
+			scope: "source comment.block"
+			settings: {
+				background: "#00000000"
+				font_style: "italic"
+				foreground: "#438AD7"
+			}
+		}
+		{
+			title: "String"
+			scope: "string"
+			settings: {
+				foreground: "#CC66FF"
+			}
+		}
+		{
+			title: "String escapes"
+			scope: "string constant"
+			settings: {
+				font_style: "bold"
+				foreground: "#FF2837"
+			}
+		}
+		{
+			title: "String (executed)"
+			scope: "string.interpolated"
+			settings: {
+				background: "#E9CC4600"
+				foreground: "#FF7819"
+			}
+		}
+		{
+			title: "Regular expression"
+			scope: "string.regexp"
+			settings: {
+				foreground: "#CA4344"
+			}
+		}
+		{
+			title: "Regexp Escapes"
+			scope: "string.regexp constant"
+			settings: {
+				font_style: "bold"
+				foreground: "#FF9D00"
+			}
+		}
+		{
+			title: "String (literal)"
+			scope: "string.literal"
+			settings: {
+				foreground: "#E2CE00"
+			}
+		}
+		{
+			title: "Numbers"
+			scope: "constant.numeric"
+			settings: {
+				foreground: "#EDDD5A"
+			}
+		}
+		{
+			title: "Symbols"
+			scope: "constant.other"
+			settings: {
+				foreground: "#80D500"
+			}
+		}
+		{
+			title: "Operators"
+			scope: "keyword.operator"
+			settings: {
+				font_style: "bold"
+				foreground: "#FFFFFF"
+			}
+		}
+		{
+			title: "Invalid"
+			scope: "invalid"
+			settings: {
+				background: "#670000"
+				foreground: "#FFFFFF"
+			}
+		}
+		{
+			title: "Class name"
+			scope: "entity.name.class"
+			settings: {
+				font_style: "bold"
+			}
+		}
+		{
+			title: "Class inheritance"
+			scope: "entity.other.inherited-class"
+			settings: {
+				font_style: "bold italic"
+			}
+		}
+		{
+			title: "Tag name"
+			scope: "entity.name.tag"
+			settings: {
+				font_style: "bold"
+				foreground: "#FFFFFF"
+			}
+		}
+		{
+			title: "Tag attribute"
+			scope: "entity.other.attribute-name"
+			settings: {
+				font_style: ""
+				foreground: "#FFFFFF"
+			}
+		}
+		{
+			title: "CSS Selector"
+			scope: "meta.selector.css, entity.other.attribute-name.pseudo-class.css, entity.name.tag.wildcard.css, entity.other.attribute-name.id.css, entity.other.attribute-name.class.css"
+			settings: {
+				font_style: "bold"
+				foreground: "#B53B3C"
+			}
+		}
+		{
+			title: "CSS Property"
+			scope: "support.type.property-name.css"
+			settings: {
+				foreground: "#8AA6C1"
+			}
+		}
+		{
+			title: "Diff Header"
+			scope: "meta.diff, meta.diff.header"
+			settings: {
+				background: "#0E2231"
+				font_style: "italic"
+			}
+		}
+		{
+			title: "Diff Inserted"
+			scope: "markup.inserted"
+			settings: {
+				background: "#253B22"
+			}
+		}
+		{
+			title: "Diff Changed"
+			scope: "markup.changed"
+			settings: {
+				background: "#4A410D"
+			}
+		}
+		{
+			title: "Diff Deleted"
+			scope: "markup.deleted"
+			settings: {
+				background: "#420E09"
+			}
+		}
+	]
+}

@@ -1,0 +1,237 @@
+{
+	title: "GlitterBomb"
+	settings: [
+		{
+			settings: {
+				background: "#0B0A0A"
+				caret: "#E2E9FF"
+				foreground: "#CFCFCF"
+				invisibles: "#484848"
+				line_highlight: "#F8F8F8"
+				selection: "#FFFFFF59"
+			}
+		}
+		{
+			title: "Comment"
+			scope: "comment"
+			settings: {
+				font_style: "italic"
+				foreground: "#44444E"
+			}
+		}
+		{
+			title: "Comment Block"
+			scope: "comment.block"
+			settings: {
+				font_style: "italic"
+				foreground: "#44444E"
+			}
+		}
+		{
+			title: "Constant"
+			scope: "constant"
+			settings: {
+				foreground: "#C0A368"
+			}
+		}
+		{
+			title: "Entity"
+			scope: "entity"
+			settings: {
+				font_style: "bold"
+				foreground: "#E16521"
+			}
+		}
+		{
+			title: "Operators"
+			scope: "keyword.operator"
+			settings: {
+				foreground: "#988155"
+			}
+		}
+		{
+			title: "Keyword"
+			scope: "keyword"
+			settings: {
+				font_style: "bold"
+				foreground: "#DBB800"
+			}
+		}
+		{
+			title: "Number"
+			scope: "constant.numeric"
+			settings: {
+				foreground: "#D3C788"
+			}
+		}
+		{
+			title: "Storage"
+			scope: "storage"
+			settings: {
+				font_style: ""
+				foreground: "#F6F080"
+			}
+		}
+		{
+			title: "String"
+			scope: "string"
+			settings: {
+				font_style: ""
+				foreground: "#4D6537"
+			}
+		}
+		{
+			title: "Support"
+			scope: "support"
+			settings: {
+				font_style: ""
+				foreground: "#7D6C55"
+			}
+		}
+		{
+			title: "Variable"
+			scope: "variable"
+			settings: {
+				foreground: "#AE5251"
+			}
+		}
+		{
+			title: "Invalid"
+			scope: "invalid"
+			settings: {
+				background: "#D8290DBF"
+				foreground: "#F8F8F8"
+			}
+		}
+		{
+			title: "Embedded Source"
+			scope: "text source"
+			settings: {
+				background: "#B0B3BA14"
+				foreground: "#705393"
+			}
+		}
+		{
+			title: "Embedded Source (Bright)"
+			scope: "text.html.ruby source"
+			settings: {
+				background: "#B1B3BA21"
+				foreground: "#5F4482"
+			}
+		}
+		{
+			title: "Entity inherited-class"
+			scope: "entity.other.inherited-class"
+			settings: {
+				font_style: "italic"
+				foreground: "#783301"
+			}
+		}
+		{
+			title: "String embedded-source"
+			scope: "string.quoted source"
+			settings: {
+				font_style: ""
+				foreground: "#8F8B63"
+			}
+		}
+		{
+			title: "String constant"
+			scope: "string constant"
+			settings: {
+				foreground: "#707576"
+			}
+		}
+		{
+			title: "String.regexp"
+			scope: "string.regexp"
+			settings: {
+				foreground: "#364627"
+			}
+		}
+		{
+			title: "String variable"
+			scope: "string variable"
+			settings: {
+				foreground: "#EDEF7D"
+			}
+		}
+		{
+			title: "Support.function"
+			scope: "support.function"
+			settings: {
+				font_style: ""
+				foreground: "#935E29"
+			}
+		}
+		{
+			title: "Support.constant"
+			scope: "support.constant"
+			settings: {
+				font_style: ""
+				foreground: "#EBAC47"
+			}
+		}
+		{
+			title: "C/C++ Preprocessor Line"
+			scope: "other.preprocessor.c"
+			settings: {
+				foreground: "#8996A8"
+			}
+		}
+		{
+			title: "C/C++ Preprocessor Directive"
+			scope: "other.preprocessor.c entity"
+			settings: {
+				foreground: "#AFC4DB"
+			}
+		}
+		{
+			title: "Doctype/XML Processing"
+			scope: "declaration.sgml.html declaration.doctype, declaration.sgml.html declaration.doctype entity, declaration.sgml.html declaration.doctype string, declaration.xml-processing, declaration.xml-processing entity, declaration.xml-processing string"
+			settings: {
+				foreground: "#73817D"
+			}
+		}
+		{
+			title: "Meta.tag.A"
+			scope: "declaration.tag, declaration.tag entity, meta.tag, meta.tag entity"
+			settings: {
+				foreground: "#AAD7EF"
+			}
+		}
+		{
+			title: "diff.header"
+			scope: "meta.diff, meta.diff.header"
+			settings: {
+				background: "#0E2231"
+				font_style: "italic"
+				foreground: "#F8F8F8"
+			}
+		}
+		{
+			title: "diff.deleted"
+			scope: "markup.deleted"
+			settings: {
+				background: "#D03620"
+				foreground: "#F8F8F8"
+			}
+		}
+		{
+			title: "diff.changed"
+			scope: "markup.changed"
+			settings: {
+				background: "#C4B14A"
+				foreground: "#F8F8F8"
+			}
+		}
+		{
+			title: "diff.inserted"
+			scope: "markup.inserted"
+			settings: {
+				background: "#41A83E"
+				foreground: "#F8F8F8"
+			}
+		}
+	]
+}

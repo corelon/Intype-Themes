@@ -1,0 +1,400 @@
+{
+	title: "GitHub"
+	settings: [
+		{
+			settings: {
+				background: "#F8F8FF"
+				caret: "#000000"
+				foreground: "#000000"
+				invisibles: "#BFBFBF"
+				line_highlight: "#00000012"
+				selection: "#BCD5FA"
+			}
+		}
+		{
+			title: "Source"
+			scope: "source"
+			settings: {
+				background: "#F8F8FF"
+			}
+		}
+		{
+			title: "Comment"
+			scope: "comment"
+			settings: {
+				font_style: "italic"
+				foreground: "#999988"
+			}
+		}
+		{
+			title: "Keyword"
+			scope: "keyword, storage"
+			settings: {
+				font_style: "bold"
+				foreground: "#000000"
+			}
+		}
+		{
+			title: "Keyword operator"
+			scope: "keyword.operator.assignment"
+			settings: {
+				font_style: ""
+				foreground: "#000000"
+			}
+		}
+		{
+			title: "keyword like new"
+			scope: "keyword.other.special-method"
+			settings: {
+				font_style: ""
+			}
+		}
+		{
+			title: "Function (definition)"
+			scope: "entity.name.function, keyword.other.name-of-parameter.objc"
+			settings: {
+				font_style: "bold"
+				foreground: "#990000"
+			}
+		}
+		{
+			title: "Class (definition)"
+			scope: "entity.name"
+			settings: {
+				font_style: "bold"
+				foreground: "#445588"
+			}
+		}
+		{
+			title: "Number"
+			scope: "constant.numeric"
+			settings: {
+				font_style: ""
+				foreground: "#009999"
+			}
+		}
+		{
+			title: "Variable"
+			scope: "variable.language, variable.other"
+			settings: {
+				font_style: ""
+				foreground: "#108888"
+			}
+		}
+		{
+			title: "Built-in constant"
+			scope: "constant.language"
+			settings: {
+				font_style: "bold"
+				foreground: "#000000"
+			}
+		}
+		{
+			title: "Variable"
+			scope: "variable.other.constant.ruby"
+			settings: {
+				foreground: "#0F8787"
+			}
+		}
+		{
+			title: "Built-in constant"
+			scope: "constant.language"
+			settings: {
+				font_style: "bold"
+				foreground: "#000000"
+			}
+		}
+		{
+			title: "String"
+			scope: "string"
+			settings: {
+				foreground: "#DD1144"
+			}
+		}
+		{
+			title: "Inherited class"
+			scope: "entity.other.inherited-class"
+			settings: {
+				font_style: ""
+				foreground: "#0F8787"
+			}
+		}
+		{
+			title: "Inherited class seperator"
+			scope: "punctuation.separator.inheritance"
+			settings: {
+				font_style: "bold"
+				foreground: "#000000"
+			}
+		}
+		{
+			title: "punctuation block"
+			scope: "punctuation.separator.variable"
+			settings: {
+				font_style: "bold"
+				foreground: "#000000"
+			}
+		}
+		{
+			title: "array brackets"
+			scope: "punctuation.section.array"
+			settings: {
+				font_style: "bold"
+				foreground: "#000000"
+			}
+		}
+		{
+			title: "hash separator"
+			scope: "punctuation.separator.key-value"
+			settings: {
+				font_style: "bold"
+				foreground: "#000000"
+			}
+		}
+		{
+			title: "() brackets"
+			scope: "punctuation.section.function"
+			settings: {
+				font_style: ""
+				foreground: "#000000"
+			}
+		}
+		{
+			title: "hash brackets"
+			scope: "punctuation.section.scope"
+			settings: {
+				font_style: ""
+				foreground: "#000000"
+			}
+		}
+		{
+			title: "Special ruby method"
+			scope: "keyword.other.special-method.ruby"
+			settings: {
+				font_style: "bold"
+			}
+		}
+		{
+			title: "symbol"
+			scope: "constant.other.symbol"
+			settings: {
+				font_style: ""
+				foreground: "#AA2C8C"
+			}
+		}
+		{
+			title: "Support class"
+			scope: "support.class.ruby"
+			settings: {
+				font_style: ""
+				foreground: "#008080"
+			}
+		}
+		{
+			title: "String.regexp"
+			scope: "string.regexp"
+			settings: {
+				foreground: "#009926"
+			}
+		}
+		{
+			title: "String embedded source"
+			scope: "string.quoted source"
+			settings: {
+				foreground: "#000000"
+			}
+		}
+		{
+			title: "doctype punctation"
+			scope: "meta.tag.sgml.html"
+			settings: {
+				font_style: "bold"
+				foreground: "#999999"
+			}
+		}
+		{
+			title: "doctype declaration"
+			scope: "entity.name.tag.doctype"
+			settings: {
+				font_style: "bold"
+				foreground: "#999999"
+			}
+		}
+		{
+			title: "doctype string"
+			scope: "string.quoted.double.doctype"
+			settings: {
+				font_style: "bold"
+				foreground: "#999999"
+			}
+		}
+		{
+			title: "html tag punctuation"
+			scope: "punctuation.definition.tag"
+			settings: {
+				font_style: ""
+				foreground: "#121289"
+			}
+		}
+		{
+			title: "html tag punctuation"
+			scope: "entity.name.tag"
+			settings: {
+				font_style: ""
+				foreground: "#121289"
+			}
+		}
+		{
+			title: "html attribute"
+			scope: "entity.other.attribute-name"
+			settings: {
+				font_style: ""
+				foreground: "#0A8585"
+			}
+		}
+		{
+			title: "html attribute punctation"
+			scope: "entity.other.attribute-name"
+			settings: {
+				font_style: ""
+				foreground: "#0A8585"
+			}
+		}
+		{
+			title: "erb tags"
+			scope: "punctuation.section.embedded.ruby"
+			settings: {
+				font_style: "bold"
+				foreground: "#999999"
+			}
+		}
+		{
+			title: "ruby string interpolation"
+			scope: "source.ruby.embedded.source punctuation.section.embedded.ruby"
+			settings: {
+				foreground: "#CF1040"
+			}
+		}
+		{
+			title: "css brackets"
+			scope: "punctuation.section.property-list.css"
+			settings: {
+				font_style: ""
+			}
+		}
+		{
+			title: "css property"
+			scope: "support.type.property-name.css"
+			settings: {
+				font_style: "bold"
+			}
+		}
+		{
+			title: "css property punctuation"
+			scope: "punctuation.separator.key-value.css"
+			settings: {
+				font_style: ""
+				foreground: "#000000"
+			}
+		}
+		{
+			title: "css property value"
+			scope: "meta.property-value, constant.other.color"
+			settings: {
+				font_style: ""
+				foreground: "#009999"
+			}
+		}
+		{
+			title: "css ending"
+			scope: "punctuation.terminator.rule.css"
+			settings: {
+				font_style: ""
+				foreground: "#000000"
+			}
+		}
+		{
+			title: "css font"
+			scope: "support.constant.font-name"
+			settings: {
+				font_style: ""
+				foreground: "#000000"
+			}
+		}
+		{
+			title: "css keyword"
+			scope: "keyword.other.unit"
+			settings: {
+				font_style: ""
+				foreground: "#009999"
+			}
+		}
+		{
+			title: "pseudo class"
+			scope: "entity.other.attribute-name.pseudo-class"
+			settings: {
+				font_style: ""
+				foreground: "#000000"
+			}
+		}
+		{
+			title: "css constant property value"
+			scope: "support.constant.property-value"
+			settings: {
+				font_style: "bold"
+				foreground: "#000000"
+			}
+		}
+		{
+			title: "css attribute class"
+			scope: "entity.other.attribute-name.class"
+			settings: {
+				font_style: "bold"
+				foreground: "#445588"
+			}
+		}
+		{
+			title: "css attribute id"
+			scope: "entity.other.attribute-name.id"
+			settings: {
+				font_style: "bold"
+				foreground: "#990000"
+			}
+		}
+		{
+			title: "diff header from"
+			scope: "meta.diff.header.from-file"
+			settings: {
+				background: "#FFDDDD"
+				font_style: ""
+				foreground: "#000000"
+			}
+		}
+		{
+			title: "diff header to"
+			scope: "meta.diff.header.to-file"
+			settings: {
+				background: "#DDFFDD"
+				font_style: ""
+				foreground: "#000000"
+			}
+		}
+		{
+			title: "diff inserted"
+			scope: "markup.inserted.diff"
+			settings: {
+				background: "#DDFFDD"
+				font_style: ""
+			}
+		}
+		{
+			title: "diff deleted"
+			scope: "markup.deleted.diff"
+			settings: {
+				background: "#FFDDDD"
+				font_style: ""
+				foreground: "#000000"
+			}
+		}
+	]
+}

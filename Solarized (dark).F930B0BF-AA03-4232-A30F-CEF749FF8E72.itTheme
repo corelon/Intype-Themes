@@ -1,0 +1,201 @@
+{
+	title: "Solarized (dark)"
+	settings: [
+		{
+			settings: {
+				background: "#002B36"
+				caret: "#D30102"
+				foreground: "#93A1A1"
+				invisibles: "#93A1A180"
+				line_highlight: "#073642"
+				selection: "#073642"
+			}
+		}
+		{
+			title: "Comment"
+			scope: "comment"
+			settings: {
+				font_style: "italic"
+				foreground: "#657B83"
+			}
+		}
+		{
+			title: "String"
+			scope: "string"
+			settings: {
+				foreground: "#2AA198"
+			}
+		}
+		{
+			title: "Regexp"
+			scope: "string.regexp"
+			settings: {
+				foreground: "#D30102"
+			}
+		}
+		{
+			title: "Number"
+			scope: "constant.numeric"
+			settings: {
+				foreground: "#D33682"
+			}
+		}
+		{
+			title: "Variable"
+			scope: "variable.language, variable.other"
+			settings: {
+				foreground: "#268BD2"
+			}
+		}
+		{
+			title: "Keyword"
+			scope: "keyword"
+			settings: {
+				foreground: "#859900"
+			}
+		}
+		{
+			title: "Storage"
+			scope: "storage"
+			settings: {
+				font_style: "bold"
+				foreground: "#93A1A1"
+			}
+		}
+		{
+			title: "Class name"
+			scope: "entity.name.class, entity.name.type.class"
+			settings: {
+				font_style: ""
+				foreground: "#CB4B16"
+			}
+		}
+		{
+			title: "Function name"
+			scope: "entity.name.function"
+			settings: {
+				foreground: "#268BD2"
+			}
+		}
+		{
+			title: "Variable start"
+			scope: "punctuation.definition.variable"
+			settings: {
+				foreground: "#859900"
+			}
+		}
+		{
+			title: "Embedded code markers"
+			scope: "punctuation.section.embedded.begin, punctuation.section.embedded.end"
+			settings: {
+				foreground: "#D30102"
+			}
+		}
+		{
+			title: "Built-in constant"
+			scope: "constant.language, meta.preprocessor"
+			settings: {
+				foreground: "#B58900"
+			}
+		}
+		{
+			title: "Support.construct"
+			scope: "support.function.construct, keyword.other.new"
+			settings: {
+				foreground: "#CB4B16"
+			}
+		}
+		{
+			title: "User-defined constant"
+			scope: "constant.character, constant.other"
+			settings: {
+				foreground: "#CB4B16"
+			}
+		}
+		{
+			title: "Inherited class"
+			scope: "entity.other.inherited-class"
+			settings: {
+				foreground: "#6C71C4"
+			}
+		}
+		{
+			title: "Function argument"
+			scope: "variable.parameter"
+			settings: {
+
+			}
+		}
+		{
+			title: "Tag name"
+			scope: "entity.name.tag"
+			settings: {
+				font_style: "bold"
+				foreground: "#268BD2"
+			}
+		}
+		{
+			title: "Tag start/end"
+			scope: "punctuation.definition.tag"
+			settings: {
+				foreground: "#657B83"
+			}
+		}
+		{
+			title: "Tag attribute"
+			scope: "entity.other.attribute-name"
+			settings: {
+				foreground: "#93A1A1"
+			}
+		}
+		{
+			title: "Library function"
+			scope: "support.function"
+			settings: {
+				foreground: "#268BD2"
+			}
+		}
+		{
+			title: "Continuation"
+			scope: "punctuation.separator.continuation"
+			settings: {
+				foreground: "#D30102"
+			}
+		}
+		{
+			title: "Library constant"
+			scope: "support.constant"
+			settings: {
+
+			}
+		}
+		{
+			title: "Library class/type"
+			scope: "support.type, support.class"
+			settings: {
+				foreground: "#859900"
+			}
+		}
+		{
+			title: "Library Exception"
+			scope: "support.type.exception"
+			settings: {
+				foreground: "#CB4B16"
+			}
+		}
+		{
+			title: "Library variable"
+			scope: "support.other.variable"
+			settings: {
+
+			}
+		}
+		{
+			title: "Invalid"
+			scope: "invalid"
+			settings: {
+
+			}
+		}
+	]
+}

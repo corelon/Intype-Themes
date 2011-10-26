@@ -1,0 +1,160 @@
+{
+	title: "TopFunky"
+	settings: [
+		{
+			settings: {
+				background: "#343435"
+				caret: "#FFFFFF"
+				foreground: "#ADADAD"
+				invisibles: "#BFBFBF"
+				line_highlight: "#00000024"
+				selection: "#181818"
+			}
+		}
+		{
+			title: "Comment"
+			scope: "comment"
+			settings: {
+				foreground: "#5D5E5E"
+			}
+		}
+		{
+			title: "String"
+			scope: "string"
+			settings: {
+				foreground: "#FBF5C7"
+			}
+		}
+		{
+			title: "Number"
+			scope: "constant.numeric"
+			settings: {
+
+			}
+		}
+		{
+			title: "Built-in constant"
+			scope: "constant.language"
+			settings: {
+				font_style: "italic"
+				foreground: "#FFFFFF"
+			}
+		}
+		{
+			title: "User-defined constant"
+			scope: "constant.character, constant.other"
+			settings: {
+				font_style: ""
+				foreground: "#A6E22E"
+			}
+		}
+		{
+			title: "Variable"
+			scope: "variable.language, variable.other"
+			settings: {
+				font_style: ""
+				foreground: "#BAC6E4"
+			}
+		}
+		{
+			title: "Keyword"
+			scope: "keyword"
+			settings: {
+				font_style: ""
+				foreground: "#9FA1A1"
+			}
+		}
+		{
+			title: "Storage"
+			scope: "storage"
+			settings: {
+
+			}
+		}
+		{
+			title: "Class name"
+			scope: "entity.name.class"
+			settings: {
+				foreground: "#BAC6E4"
+			}
+		}
+		{
+			title: "Inherited class"
+			scope: "entity.other.inherited-class"
+			settings: {
+				foreground: "#BAC6E4"
+			}
+		}
+		{
+			title: "Function name"
+			scope: "entity.name.function"
+			settings: {
+				foreground: "#FFFCC2"
+			}
+		}
+		{
+			title: "Function argument"
+			scope: "variable.parameter"
+			settings: {
+
+			}
+		}
+		{
+			title: "Tag name"
+			scope: "entity.name.tag"
+			settings: {
+
+			}
+		}
+		{
+			title: "Tag attribute"
+			scope: "entity.other.attribute-name"
+			settings: {
+
+			}
+		}
+		{
+			title: "Library function"
+			scope: "support.function"
+			settings: {
+				foreground: "#BAC6E4"
+			}
+		}
+		{
+			title: "Library constant"
+			scope: "support.constant"
+			settings: {
+				foreground: "#BAC6E4"
+			}
+		}
+		{
+			title: "Library class/type"
+			scope: "support.type, support.class"
+			settings: {
+				foreground: "#BAC6E4"
+			}
+		}
+		{
+			title: "Library variable"
+			scope: "support.other.variable"
+			settings: {
+
+			}
+		}
+		{
+			title: "Invalid"
+			scope: "invalid"
+			settings: {
+				background: "#8DA6CE"
+				foreground: "#FFFFFF"
+			}
+		}
+		{
+			title: "Library object"
+			scope: "support.class, support.type"
+			settings: {
+				foreground: "#BAC6E4"
+			}
+		}
+	]
+}

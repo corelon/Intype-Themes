@@ -1,0 +1,180 @@
+{
+	title: "Merbivore Soft"
+	settings: [
+		{
+			settings: {
+				background: "#1C1C1C"
+				caret: "#FFFFFF"
+				foreground: "#E6E1DC"
+				invisibles: "#404040"
+				line_highlight: "#333435"
+				selection: "#392243E0"
+			}
+		}
+		{
+			title: "Source"
+			scope: "source"
+			settings: {
+
+			}
+		}
+		{
+			title: "Comment"
+			scope: "comment"
+			settings: {
+				font_style: "italic"
+				foreground: "#AC4BB8"
+			}
+		}
+		{
+			title: "Keyword"
+			scope: "keyword, storage"
+			settings: {
+				font_style: ""
+				foreground: "#FC803A"
+			}
+		}
+		{
+			title: "Function (definition)"
+			scope: "entity.name.function, keyword.other.name-of-parameter.objc"
+			settings: {
+				font_style: ""
+			}
+		}
+		{
+			title: "Class (definition)"
+			scope: "entity.name"
+			settings: {
+
+			}
+		}
+		{
+			title: "Class inheritence"
+			scope: "entity.other.inherited-class"
+			settings: {
+				foreground: "#C984CD"
+			}
+		}
+		{
+			title: "Number"
+			scope: "constant.numeric"
+			settings: {
+				font_style: ""
+				foreground: "#7FC578"
+			}
+		}
+		{
+			title: "Variable"
+			scope: "variable.language, variable.other"
+			settings: {
+				font_style: ""
+			}
+		}
+		{
+			title: "Constant"
+			scope: "constant"
+			settings: {
+				font_style: ""
+				foreground: "#68C1D8"
+			}
+		}
+		{
+			title: "Constant (other variable)"
+			scope: "variable.other.constant"
+			settings: {
+
+			}
+		}
+		{
+			title: "Constant (built-in)"
+			scope: "constant.language"
+			settings: {
+				font_style: ""
+				foreground: "#E1C582"
+			}
+		}
+		{
+			title: "String"
+			scope: "string"
+			settings: {
+				font_style: ""
+				foreground: "#8EC65F"
+			}
+		}
+		{
+			title: "Library function"
+			scope: "support.function"
+			settings: {
+				font_style: ""
+			}
+		}
+		{
+			title: "Library type"
+			scope: "support.type"
+			settings: {
+				foreground: "#68C1D8"
+			}
+		}
+		{
+			title: "Library constant"
+			scope: "support.constant"
+			settings: {
+				foreground: "#8EC65F"
+			}
+		}
+		{
+			title: "Markup tag"
+			scope: "meta.tag, declaration.tag, entity.name.tag"
+			settings: {
+				font_style: ""
+				foreground: "#FC803A"
+			}
+		}
+		{
+			title: "Markup tag attribute"
+			scope: "entity.other.attribute-name"
+			settings: {
+				foreground: "#EAF1A3"
+			}
+		}
+		{
+			title: "Invalid"
+			scope: "invalid"
+			settings: {
+				background: "#FE3838"
+				foreground: "#FFFFFF"
+			}
+		}
+		{
+			title: "String interpolation"
+			scope: "constant.character.escaped, constant.character.escape, string source, string source.ruby"
+			settings: {
+				font_style: ""
+				foreground: "#B3E5B4"
+			}
+		}
+		{
+			title: "Diff Add"
+			scope: "markup.inserted"
+			settings: {
+				background: "#6FC58B"
+				foreground: "#E6E1DC"
+			}
+		}
+		{
+			title: "Diff Remove"
+			scope: "markup.deleted"
+			settings: {
+				background: "#AC3735"
+				foreground: "#E6E1DC"
+			}
+		}
+		{
+			title: "Diff Header"
+			scope: "meta.diff.header, meta.separator.diff, meta.diff.index, meta.diff.range"
+			settings: {
+				background: "#5A9EE1"
+			}
+		}
+	]
+}

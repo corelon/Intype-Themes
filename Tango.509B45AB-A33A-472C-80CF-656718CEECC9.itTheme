@@ -1,0 +1,276 @@
+{
+	author: "Chris Thomas"
+	title: "Tango"
+	settings: [
+		{
+			settings: {
+				background: "#FFFFFF"
+				caret: "#000000"
+				foreground: "#303436"
+				invisibles: "#BFBFBF"
+				line_highlight: "#0000000F"
+				selection: "#4D97FF54"
+			}
+		}
+		{
+			title: "Comment"
+			scope: "comment"
+			settings: {
+				font_style: "italic"
+				foreground: "#555753"
+			}
+		}
+		{
+			title: "Keyword"
+			scope: "keyword, storage"
+			settings: {
+				font_style: "bold"
+				foreground: "#303436"
+			}
+		}
+		{
+			title: "Number"
+			scope: "constant.numeric"
+			settings: {
+				font_style: ""
+				foreground: "#4F9B00"
+			}
+		}
+		{
+			title: "User-defined constant"
+			scope: "constant"
+			settings: {
+				font_style: ""
+				foreground: "#194A87"
+			}
+		}
+		{
+			title: "Built-in constant"
+			scope: "constant.language"
+			settings: {
+				font_style: ""
+				foreground: "#194A87"
+			}
+		}
+		{
+			title: "Variable"
+			scope: "variable.language, variable.other"
+			settings: {
+				font_style: ""
+				foreground: "#194A87"
+			}
+		}
+		{
+			title: "String"
+			scope: "string"
+			settings: {
+				font_style: ""
+				foreground: "#A70000"
+			}
+		}
+		{
+			title: "String interpolation"
+			scope: "constant.character.escape, string source"
+			settings: {
+				font_style: ""
+				foreground: "#A70000"
+			}
+		}
+		{
+			title: "Preprocessor line"
+			scope: "meta.preprocessor"
+			settings: {
+				font_style: ""
+				foreground: "#65961E"
+			}
+		}
+		{
+			title: "Preprocessor directive"
+			scope: "keyword.control.import"
+			settings: {
+				font_style: ""
+				foreground: "#65961E"
+			}
+		}
+		{
+			title: "Function name"
+			scope: "entity.name.function, support.function.any-method"
+			settings: {
+				font_style: ""
+				foreground: "#5C3566"
+			}
+		}
+		{
+			title: "Type name"
+			scope: "entity.name.type"
+			settings: {
+				font_style: "underline"
+			}
+		}
+		{
+			title: "Inherited class name"
+			scope: "entity.other.inherited-class"
+			settings: {
+				font_style: "italic"
+			}
+		}
+		{
+			title: "Function parameter"
+			scope: "variable.parameter"
+			settings: {
+				font_style: "italic"
+			}
+		}
+		{
+			title: "Function argument and result types"
+			scope: "storage.type.method"
+			settings: {
+				font_style: ""
+				foreground: "#70727E"
+			}
+		}
+		{
+			title: "Section"
+			scope: "meta.section entity.name.section, declaration.section entity.name.section"
+			settings: {
+				font_style: "italic"
+			}
+		}
+		{
+			title: "Library function"
+			scope: "support.function"
+			settings: {
+				font_style: ""
+				foreground: "#3C4C72"
+			}
+		}
+		{
+			title: "Library object"
+			scope: "support.class, support.type"
+			settings: {
+				font_style: ""
+				foreground: "#D15B00"
+			}
+		}
+		{
+			title: "Library constant"
+			scope: "support.constant"
+			settings: {
+				font_style: ""
+				foreground: "#529C08"
+			}
+		}
+		{
+			title: "Library variable"
+			scope: "support.variable"
+			settings: {
+				font_style: ""
+				foreground: "#2E65A5"
+			}
+		}
+		{
+			title: "JS: Operator"
+			scope: "keyword.operator.js"
+			settings: {
+				foreground: "#687687"
+			}
+		}
+		{
+			title: "Invalid"
+			scope: "invalid"
+			settings: {
+				background: "#990000"
+				foreground: "#FFFFFF"
+			}
+		}
+		{
+			title: "Invalid trailing whitespace"
+			scope: "invalid.deprecated.trailing-whitespace"
+			settings: {
+				background: "#FFD0D0"
+			}
+		}
+		{
+			title: "Embedded source"
+			scope: "text source, string.unquoted"
+			settings: {
+				background: "#0000000D"
+			}
+		}
+		{
+			title: "Embedded embedded source"
+			scope: "text source string.unquoted, text source text source"
+			settings: {
+				background: "#0000000F"
+			}
+		}
+		{
+			title: "Markup XML declaration"
+			scope: "meta.tag.preprocessor.xml"
+			settings: {
+				font_style: ""
+				foreground: "#68685B"
+			}
+		}
+		{
+			title: "Markup DOCTYPE"
+			scope: "meta.tag.sgml.doctype, meta.tag.sgml.doctype entity, meta.tag.sgml.doctype string, meta.tag.preprocessor.xml, meta.tag.preprocessor.xml entity, meta.tag.preprocessor.xml string"
+			settings: {
+				font_style: ""
+				foreground: "#888888"
+			}
+		}
+		{
+			title: "Markup DTD"
+			scope: "string.quoted.docinfo.doctype.DTD"
+			settings: {
+				font_style: "italic"
+			}
+		}
+		{
+			title: "Markup tag"
+			scope: "meta.tag, declaration.tag"
+			settings: {
+				font_style: ""
+				foreground: "#4266A0"
+			}
+		}
+		{
+			title: "Markup name of tag"
+			scope: "entity.name.tag"
+			settings: {
+				font_style: ""
+			}
+		}
+		{
+			title: "Markup tag attribute"
+			scope: "entity.other.attribute-name"
+			settings: {
+				font_style: "italic"
+			}
+		}
+		{
+			title: "Markup: Heading"
+			scope: "markup.heading"
+			settings: {
+				font_style: ""
+				foreground: "#4266A0"
+			}
+		}
+		{
+			title: "Markup: Quote"
+			scope: "markup.quote"
+			settings: {
+				font_style: "italic"
+				foreground: "#000000"
+			}
+		}
+		{
+			title: "Markup: List"
+			scope: "markup.list"
+			settings: {
+				foreground: "#B90690"
+			}
+		}
+	]
+}

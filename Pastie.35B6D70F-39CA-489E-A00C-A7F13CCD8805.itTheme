@@ -1,0 +1,195 @@
+{
+	title: "Pastie"
+	settings: [
+		{
+			settings: {
+				background: "#FFFFFF"
+				caret: "#000000"
+				foreground: "#000000"
+				invisibles: "#404040"
+				line_highlight: "#C1E2F8"
+				selection: "#80C7FF"
+			}
+		}
+		{
+			title: "Source"
+			scope: "source"
+			settings: {
+				font_style: ""
+				foreground: "#000000"
+			}
+		}
+		{
+			title: "Comment"
+			scope: "comment"
+			settings: {
+				font_style: "italic"
+				foreground: "#888888"
+			}
+		}
+		{
+			title: "Keyword"
+			scope: "keyword, storage"
+			settings: {
+				font_style: "bold"
+				foreground: "#138B05"
+			}
+		}
+		{
+			title: "Function (definition)"
+			scope: "entity.name.function, keyword.other.name-of-parameter.objc"
+			settings: {
+				font_style: ""
+				foreground: "#1076C3"
+			}
+		}
+		{
+			title: "Class (definition)"
+			scope: "entity.name"
+			settings: {
+				foreground: "#B80066"
+			}
+		}
+		{
+			title: "Class inheritence"
+			scope: "entity.other.inherited-class"
+			settings: {
+				foreground: "#2E3266"
+			}
+		}
+		{
+			title: "Support"
+			scope: "support"
+			settings: {
+				font_style: "bold"
+				foreground: "#073191"
+			}
+		}
+		{
+			title: "Number"
+			scope: "constant.numeric"
+			settings: {
+				font_style: "bold"
+				foreground: "#0000DC"
+			}
+		}
+		{
+			title: "Variable"
+			scope: "variable"
+			settings: {
+				font_style: "bold"
+				foreground: "#0E65BB"
+			}
+		}
+		{
+			title: "Constant"
+			scope: "constant"
+			settings: {
+				font_style: "bold"
+				foreground: "#DC6036"
+			}
+		}
+		{
+			title: "Constant (other variable)"
+			scope: "variable.other.constant"
+			settings: {
+				foreground: "#DA4939"
+			}
+		}
+		{
+			title: "Constant (built-in)"
+			scope: "constant.language"
+			settings: {
+				font_style: "bold"
+				foreground: "#0B51A6"
+			}
+		}
+		{
+			title: "String"
+			scope: "string"
+			settings: {
+				background: "#FFF0F0"
+				font_style: ""
+				foreground: "#D71707"
+			}
+		}
+		{
+			title: "Library function"
+			scope: "support.function"
+			settings: {
+				font_style: "bold"
+				foreground: "#D71707"
+			}
+		}
+		{
+			title: "Library type"
+			scope: "support.type"
+			settings: {
+				foreground: "#0B51A6"
+			}
+		}
+		{
+			title: "Markup tag"
+			scope: "entity.name.tag, declaration.tag"
+			settings: {
+				font_style: ""
+				foreground: "#107941"
+			}
+		}
+		{
+			title: "Tag Attribute"
+			scope: "entity.other.attribute-name"
+			settings: {
+				font_style: "italic"
+				foreground: "#000084"
+			}
+		}
+		{
+			title: "Meta Tag"
+			scope: "meta.tag"
+			settings: {
+				foreground: "#000000"
+			}
+		}
+		{
+			title: "Invalid"
+			scope: "invalid"
+			settings: {
+				background: "#990000"
+				foreground: "#FFFFFF"
+			}
+		}
+		{
+			title: "String interpolation"
+			scope: "constant.character.escaped, constant.character.escape, string source, string source.ruby"
+			settings: {
+				background: "#FFF0F0"
+				font_style: ""
+				foreground: "#D71707"
+			}
+		}
+		{
+			title: "Diff Add"
+			scope: "markup.inserted"
+			settings: {
+				background: "#81C7FF"
+				foreground: "#E6E1DC"
+			}
+		}
+		{
+			title: "Diff Remove"
+			scope: "markup.deleted"
+			settings: {
+				background: "#D1363D"
+				foreground: "#E6E1DC"
+			}
+		}
+		{
+			title: "Diff Header"
+			scope: "meta.diff.header, meta.separator.diff, meta.diff.index, meta.diff.range"
+			settings: {
+				background: "#64AB80"
+			}
+		}
+	]
+}

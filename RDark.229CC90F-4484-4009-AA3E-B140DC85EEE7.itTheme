@@ -1,0 +1,155 @@
+{
+	title: "RDark"
+	settings: [
+		{
+			settings: {
+				background: "#1B2426"
+				caret: "#FFFFFF"
+				foreground: "#B9BDB6"
+				invisibles: "#BFBFBF"
+				line_highlight: "#00000070"
+				selection: "#E0E8FF66"
+			}
+		}
+		{
+			title: "Comment"
+			scope: "comment"
+			settings: {
+				foreground: "#646763"
+			}
+		}
+		{
+			title: "String"
+			scope: "string"
+			settings: {
+				foreground: "#5CE638"
+			}
+		}
+		{
+			title: "Number"
+			scope: "constant.numeric"
+			settings: {
+				foreground: "#5CE638"
+			}
+		}
+		{
+			title: "Built-in constant"
+			scope: "constant.language"
+			settings: {
+				foreground: "#5CE638"
+			}
+		}
+		{
+			title: "User-defined constant"
+			scope: "constant.character, constant.other"
+			settings: {
+				foreground: "#FFFFFF"
+			}
+		}
+		{
+			title: "Variable"
+			scope: "variable.language, variable.other"
+			settings: {
+				foreground: "#FFFFFF"
+			}
+		}
+		{
+			title: "Keyword"
+			scope: "keyword"
+			settings: {
+				foreground: "#5BA1CF"
+			}
+		}
+		{
+			title: "Storage"
+			scope: "storage"
+			settings: {
+				foreground: "#FFFFFF"
+			}
+		}
+		{
+			title: "Class name"
+			scope: "entity.name.class"
+			settings: {
+				foreground: "#FFFFFF"
+			}
+		}
+		{
+			title: "Inherited class"
+			scope: "entity.other.inherited-class"
+			settings: {
+				foreground: "#FFFFFF"
+			}
+		}
+		{
+			title: "Function name"
+			scope: "entity.name.function"
+			settings: {
+				foreground: "#FFAA3E"
+			}
+		}
+		{
+			title: "Function argument"
+			scope: "variable.parameter"
+			settings: {
+				foreground: "#FFFFFF"
+			}
+		}
+		{
+			title: "Tag name"
+			scope: "entity.name.tag"
+			settings: {
+				foreground: "#FFFFFF"
+			}
+		}
+		{
+			title: "Tag attribute"
+			scope: "entity.other.attribute-name"
+			settings: {
+				foreground: "#878A85"
+			}
+		}
+		{
+			title: "Library function"
+			scope: "support.function"
+			settings: {
+
+			}
+		}
+		{
+			title: "Library constant"
+			scope: "support.constant"
+			settings: {
+
+			}
+		}
+		{
+			title: "Library class/type"
+			scope: "support.type, support.class"
+			settings: {
+
+			}
+		}
+		{
+			title: "Library variable"
+			scope: "support.other.variable"
+			settings: {
+
+			}
+		}
+		{
+			title: "Invalid"
+			scope: "invalid"
+			settings: {
+
+			}
+		}
+		{
+			title: "Embedded Source"
+			scope: "text source, string.unquoted.heredoc, source source"
+			settings: {
+				background: "#435A5F47"
+			}
+		}
+	]
+}

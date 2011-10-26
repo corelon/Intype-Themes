@@ -1,0 +1,111 @@
+{
+	comment: "http://chriskempson.com"
+	title: "Tomorrow Night - Bright"
+	settings: [
+		{
+			settings: {
+				background: "#000000"
+				caret: "#9F9F9F"
+				foreground: "#DEDEDE"
+				invisibles: "#343434"
+				line_highlight: "#2A2A2A"
+				selection: "#424242"
+			}
+		}
+		{
+			title: "Comment"
+			scope: "comment"
+			settings: {
+				foreground: "#969896"
+			}
+		}
+		{
+			title: "Foreground"
+			scope: "keyword.operator.class, constant.other, source.php.embedded.line"
+			settings: {
+				font_style: ""
+				foreground: "#EEEEEE"
+			}
+		}
+		{
+			title: "Variable, String Link, Regular Expression, Tag Name"
+			scope: "variable, support.other.variable, string.other.link, string.regexp, entity.name.tag, entity.other.attribute-name, meta.tag, declaration.tag"
+			settings: {
+				foreground: "#D54E53"
+			}
+		}
+		{
+			title: "Number, Constant, Function Argument, Tag Attribute, Embedded"
+			scope: "constant.numeric, constant.language, support.constant, constant.character, variable.parameter, punctuation.section.embedded, keyword.other.unit"
+			settings: {
+				font_style: ""
+				foreground: "#E78C45"
+			}
+		}
+		{
+			title: "Class, Support"
+			scope: "entity.name.class, entity.name.type.class, support.type, support.class"
+			settings: {
+				font_style: ""
+				foreground: "#E7C547"
+			}
+		}
+		{
+			title: "String, Symbols, Inherited Class, Markup Heading"
+			scope: "string, constant.other.symbol, entity.other.inherited-class, markup.heading"
+			settings: {
+				font_style: ""
+				foreground: "#B9CA4A"
+			}
+		}
+		{
+			title: "Operator, Misc"
+			scope: "keyword.operator, constant.other.color"
+			settings: {
+				foreground: "#70C0B1"
+			}
+		}
+		{
+			title: "Function, Special Method, Block Level"
+			scope: "entity.name.function, meta.function-call, support.function, keyword.other.special-method, meta.block-level"
+			settings: {
+				font_style: ""
+				foreground: "#7AA6DA"
+			}
+		}
+		{
+			title: "Keyword, Storage"
+			scope: "keyword, storage, storage.type, entity.name.tag.css"
+			settings: {
+				font_style: ""
+				foreground: "#C397D8"
+			}
+		}
+		{
+			title: "Invalid"
+			scope: "invalid"
+			settings: {
+				background: "#DF5F5F"
+				font_style: ""
+				foreground: "#CED2CF"
+			}
+		}
+		{
+			title: "Separator"
+			scope: "meta.separator"
+			settings: {
+				background: "#82A3BF"
+				foreground: "#CED2CF"
+			}
+		}
+		{
+			title: "Deprecated"
+			scope: "invalid.deprecated"
+			settings: {
+				background: "#B798BF"
+				font_style: ""
+				foreground: "#CED2CF"
+			}
+		}
+	]
+}

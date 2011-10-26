@@ -1,0 +1,187 @@
+{
+	title: "Fade to Grey"
+	settings: [
+		{
+			settings: {
+				background: "#000000"
+				caret: "#FFFFFF"
+				foreground: "#FFFFFF"
+				invisibles: "#404040"
+				line_highlight: "#3A3A007A"
+				selection: "#4A8CDBB3"
+			}
+		}
+		{
+			title: "Text"
+			scope: "text"
+			settings: {
+				background: "#000000"
+				font_style: ""
+				foreground: "#FFFFFF"
+			}
+		}
+		{
+			title: "Source"
+			scope: "source"
+			settings: {
+				background: "#000000"
+				font_style: ""
+			}
+		}
+		{
+			title: "Comment"
+			scope: "comment"
+			settings: {
+				font_style: ""
+				foreground: "#696854"
+			}
+		}
+		{
+			title: "Block comment"
+			scope: "comment.block"
+			settings: {
+				background: "#121212"
+				font_style: ""
+				foreground: "#696854"
+			}
+		}
+		{
+			title: "Constant"
+			scope: "constant"
+			settings: {
+				foreground: "#96DAFF"
+			}
+		}
+		{
+			title: "Keyword"
+			scope: "keyword"
+			settings: {
+				font_style: ""
+				foreground: "#D01D33"
+			}
+		}
+		{
+			title: "Variable"
+			scope: "variable"
+			settings: {
+				font_style: "bold"
+				foreground: "#898989"
+			}
+		}
+		{
+			title: "Storage"
+			scope: "storage"
+			settings: {
+				foreground: "#3185B9"
+			}
+		}
+		{
+			title: "Function name"
+			scope: "entity.name.function"
+			settings: {
+				font_style: ""
+				foreground: "#AAAAAA"
+			}
+		}
+		{
+			title: "Function argument"
+			scope: "variable.parameter"
+			settings: {
+				font_style: ""
+				foreground: "#C3C3C3"
+			}
+		}
+		{
+			title: "String"
+			scope: "string"
+			settings: {
+				foreground: "#E3E658"
+			}
+		}
+		{
+			title: "Regular expression"
+			scope: "string.regexp"
+			settings: {
+				foreground: "#D8E600"
+			}
+		}
+		{
+			title: "Type name"
+			scope: "entity.name.type"
+			settings: {
+				font_style: "underline"
+			}
+		}
+		{
+			title: "Class inheritance"
+			scope: "entity.other.inherited-class"
+			settings: {
+				font_style: "underline"
+			}
+		}
+		{
+			title: "Tag name"
+			scope: "meta.tag, meta.tag entity"
+			settings: {
+				font_style: ""
+				foreground: "#3E3E3E"
+			}
+		}
+		{
+			title: "Tag attribute"
+			scope: "entity.other.attribute-name"
+			settings: {
+				font_style: ""
+				foreground: "#A1A1A1"
+			}
+		}
+		{
+			title: "Tag attribute value"
+			scope: "meta.attribute-with-value.id.html, string.quoted.double.html"
+			settings: {
+				font_style: ""
+				foreground: "#FFC58E"
+			}
+		}
+		{
+			title: "Support function"
+			scope: "support.function"
+			settings: {
+				font_style: ""
+				foreground: "#CBC3B1"
+			}
+		}
+		{
+			title: "Support class"
+			scope: "support.class"
+			settings: {
+				font_style: "bold"
+				foreground: "#FFC074"
+			}
+		}
+		{
+			title: "Haml Prolog Metadata"
+			scope: "punctuation.definition.prolog.haml"
+			settings: {
+				font_style: "italic"
+				foreground: "#3C2F2B"
+			}
+		}
+		{
+			title: "Haml Class"
+			scope: "entity.name.tag.class.haml"
+			settings: {
+				font_style: ""
+				foreground: "#808080"
+			}
+		}
+		{
+			title: "Haml ID"
+			scope: "entity.name.tag.id.haml"
+			settings: {
+				font_style: ""
+				foreground: "#FF3F52"
+			}
+		}
+	]
+}

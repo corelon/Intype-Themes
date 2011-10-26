@@ -1,0 +1,302 @@
+{
+	title: "Erebus"
+	settings: [
+		{
+			settings: {
+				background: "#140A0A"
+				caret: "#F8F8F0"
+				foreground: "#F8F8F2"
+				invisibles: "#3B3A32"
+				line_highlight: "#3D2E2E77"
+				selection: "#A63A3A"
+			}
+		}
+		{
+			title: "Comment"
+			scope: "comment"
+			settings: {
+				foreground: "#8C6969"
+			}
+		}
+		{
+			title: "String"
+			scope: "string"
+			settings: {
+				foreground: "#FFB2B2"
+			}
+		}
+		{
+			title: "Number"
+			scope: "constant.numeric"
+			settings: {
+				foreground: "#E57EDD"
+			}
+		}
+		{
+			title: "Built-in constant"
+			scope: "constant.language"
+			settings: {
+				foreground: "#E57EDD"
+			}
+		}
+		{
+			title: "User-defined constant"
+			scope: "constant.character, constant.other"
+			settings: {
+				foreground: "#E57EDD"
+			}
+		}
+		{
+			title: "Variable"
+			scope: "variable"
+			settings: {
+				font_style: ""
+			}
+		}
+		{
+			title: "Keyword"
+			scope: "keyword"
+			settings: {
+				foreground: "#D95757"
+			}
+		}
+		{
+			title: "Storage"
+			scope: "storage"
+			settings: {
+				font_style: ""
+				foreground: "#D95757"
+			}
+		}
+		{
+			title: "Storage type"
+			scope: "storage.type"
+			settings: {
+				font_style: "italic"
+				foreground: "#FFB266"
+			}
+		}
+		{
+			title: "Class name"
+			scope: "entity.name.class"
+			settings: {
+				font_style: "underline"
+				foreground: "#F2AAEC"
+			}
+		}
+		{
+			title: "Inherited class"
+			scope: "entity.other.inherited-class"
+			settings: {
+				font_style: "italic underline"
+				foreground: "#F2AAEC"
+			}
+		}
+		{
+			title: "Function name"
+			scope: "entity.name.function"
+			settings: {
+				font_style: ""
+				foreground: "#F2AAEC"
+			}
+		}
+		{
+			title: "Function argument"
+			scope: "variable.parameter"
+			settings: {
+				font_style: "italic"
+				foreground: "#FFD2A6"
+			}
+		}
+		{
+			title: "Tag name"
+			scope: "entity.name.tag"
+			settings: {
+				font_style: ""
+				foreground: "#D95757"
+			}
+		}
+		{
+			title: "Tag attribute"
+			scope: "entity.other.attribute-name"
+			settings: {
+				font_style: ""
+				foreground: "#FFB266"
+			}
+		}
+		{
+			title: "Library function"
+			scope: "support.function"
+			settings: {
+				font_style: ""
+				foreground: "#FFB266"
+			}
+		}
+		{
+			title: "Library constant"
+			scope: "support.constant"
+			settings: {
+				font_style: ""
+				foreground: "#FFB266"
+			}
+		}
+		{
+			title: "Library class/type"
+			scope: "support.type, support.class"
+			settings: {
+				font_style: "italic"
+				foreground: "#FFB266"
+			}
+		}
+		{
+			title: "Library variable"
+			scope: "support.other.variable"
+			settings: {
+				font_style: ""
+			}
+		}
+		{
+			title: "PHP Namespaces"
+			scope: "support.other.namespace, entity.name.type.namespace"
+			settings: {
+				foreground: "#FFD2A6"
+			}
+		}
+		{
+			title: "PHP Namespace Alias"
+			scope: "support.other.namespace.use-as.php"
+			settings: {
+				foreground: "#FFB266"
+			}
+		}
+		{
+			title: "PHP Namespace Keyword"
+			scope: "variable.language.namespace.php"
+			settings: {
+				foreground: "#D17B7B"
+			}
+		}
+		{
+			title: "PHP Namespace Separator"
+			scope: "punctuation.separator.inheritance.php"
+			settings: {
+				foreground: "#E57EDD"
+			}
+		}
+		{
+			title: "CSS ID / Class"
+			scope: "entity.other.attribute-name.id.css, entity.other.attribute-name.class.css"
+			settings: {
+				foreground: "#F2AAEC"
+			}
+		}
+		{
+			title: "CSS Pseudo Class"
+			scope: "entity.other.attribute-name.pseudo-class.css"
+			settings: {
+				foreground: "#E57EDD"
+			}
+		}
+		{
+			title: "CSS Functions / Property Values"
+			scope: "support.function.misc.css, support.constant.property-value.css, support.constant.font-name.css"
+			settings: {
+				foreground: "#FFD2A6"
+			}
+		}
+		{
+			title: "CSS Numeric Constant"
+			scope: "constant.numeric.css"
+			settings: {
+				foreground: "#F2AAEC"
+			}
+		}
+		{
+			title: "CSS Function Parameters"
+			scope: "variable.parameter.misc.css"
+			settings: {
+				foreground: "#F2AAEC"
+			}
+		}
+		{
+			title: "Twig Tagbraces"
+			scope: "meta.tag.template.value.twig, meta.tag.template.block.twig"
+			settings: {
+				foreground: "#CD5AC5"
+			}
+		}
+		{
+			title: "Twig Keywords"
+			scope: "keyword.control.twig"
+			settings: {
+				foreground: "#D97878"
+			}
+		}
+		{
+			title: "Twig Objects"
+			scope: "variable.other.twig"
+			settings: {
+				foreground: "#E5A5E0"
+			}
+		}
+		{
+			title: "Twig Object Properties"
+			scope: "variable.other.property.twig"
+			settings: {
+				foreground: "#FFE1FC"
+			}
+		}
+		{
+			title: "Twig Language Constants"
+			scope: "constant.language.twig"
+			settings: {
+				foreground: "#FFD2A6"
+			}
+		}
+		{
+			title: "Twig Numerical Constants"
+			scope: "constant.numeric.twig"
+			settings: {
+				foreground: "#FFD0FB"
+			}
+		}
+		{
+			title: "Twig Filters"
+			scope: "support.function.twig"
+			settings: {
+				foreground: "#FFC082"
+			}
+		}
+		{
+			title: "Twig User-Defined Filters"
+			scope: "meta.function-call.other.twig"
+			settings: {
+				foreground: "#E89191"
+			}
+		}
+		{
+			title: "Twig Macros"
+			scope: "meta.function-call.twig"
+			settings: {
+				foreground: "#E8A7A7"
+			}
+		}
+		{
+			title: "Invalid"
+			scope: "invalid"
+			settings: {
+				background: "#D95757"
+				font_style: ""
+				foreground: "#F8F8F0"
+			}
+		}
+		{
+			title: "Invalid deprecated"
+			scope: "invalid.deprecated"
+			settings: {
+				background: "#E57EDD"
+				foreground: "#F8F8F0"
+			}
+		}
+	]
+}

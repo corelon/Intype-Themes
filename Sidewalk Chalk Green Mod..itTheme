@@ -1,0 +1,175 @@
+{
+	comment: "Vibrant Pastels"
+	title: "Sidewalk Chalk Green Mod"
+	settings: [
+		{
+			settings: {
+				background: "#2B2D2E"
+				caret: "#7F7F7F"
+				foreground: "#FAFAFA"
+				invisibles: "#525252"
+				line_highlight: "#00000012"
+				selection: "#C6C6C68F"
+			}
+		}
+		{
+			title: "Comment"
+			scope: "comment"
+			settings: {
+				background: "#212223"
+				foreground: "#535353"
+			}
+		}
+		{
+			title: "String"
+			scope: "string"
+			settings: {
+				background: "#010A2E40"
+				foreground: "#5F88B8"
+			}
+		}
+		{
+			title: "Number"
+			scope: "constant.numeric"
+			settings: {
+				foreground: "#E5DA39"
+			}
+		}
+		{
+			title: "Built-in constant"
+			scope: "constant.language"
+			settings: {
+				font_style: ""
+				foreground: "#D56E26"
+			}
+		}
+		{
+			title: "User-defined constant"
+			scope: "constant.character, constant.other"
+			settings: {
+				foreground: "#C7EB37"
+			}
+		}
+		{
+			title: "Variable"
+			scope: "variable.language, variable.other"
+			settings: {
+				foreground: "#55A9DB"
+			}
+		}
+		{
+			title: "Keyword"
+			scope: "keyword"
+			settings: {
+				foreground: "#62BA4D"
+			}
+		}
+		{
+			title: "Storage"
+			scope: "storage"
+			settings: {
+				font_style: ""
+			}
+		}
+		{
+			title: "Class name"
+			scope: "entity.name.class"
+			settings: {
+
+			}
+		}
+		{
+			title: "Inherited class"
+			scope: "entity.other.inherited-class"
+			settings: {
+
+			}
+		}
+		{
+			title: "Function name"
+			scope: "entity.name.function, keyword.operator, keyword.other.name-of-parameter"
+			settings: {
+				foreground: "#A3A3A3"
+			}
+		}
+		{
+			title: "Function argument"
+			scope: "variable.parameter"
+			settings: {
+				font_style: ""
+			}
+		}
+		{
+			title: "Tag name"
+			scope: "entity.name.tag"
+			settings: {
+				font_style: ""
+			}
+		}
+		{
+			title: "Tag attribute"
+			scope: "entity.other.attribute-name"
+			settings: {
+				font_style: ""
+			}
+		}
+		{
+			title: "Library function"
+			scope: "support.function"
+			settings: {
+				font_style: ""
+				foreground: "#66FFCC"
+			}
+		}
+		{
+			title: "Library constant"
+			scope: "support.constant"
+			settings: {
+				font_style: ""
+			}
+		}
+		{
+			title: "Library class/type"
+			scope: "support.type, support.class"
+			settings: {
+				font_style: ""
+			}
+		}
+		{
+			title: "Library variable"
+			scope: "support.other.variable"
+			settings: {
+				font_style: ""
+			}
+		}
+		{
+			title: "Invalid"
+			scope: "invalid"
+			settings: {
+				font_style: ""
+			}
+		}
+		{
+			title: "Library object"
+			scope: "support.class, support.type, entity.name"
+			settings: {
+				font_style: ""
+				foreground: "#5F88B8"
+			}
+		}
+		{
+			title: "Embedded code"
+			scope: "string.unquoted.embedded, text source, string.unquoted"
+			settings: {
+				background: "#00162B40"
+			}
+		}
+		{
+			title: "String interpolation"
+			scope: "constant.character.escaped, string source - string.unquoted.embedded, string string source"
+			settings: {
+				foreground: "#999999"
+			}
+		}
+	]
+}

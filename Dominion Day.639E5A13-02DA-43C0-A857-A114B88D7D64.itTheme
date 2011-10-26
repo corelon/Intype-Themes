@@ -1,0 +1,371 @@
+{
+	author: "Alex Ross"
+	comment: "© 2008 KHI Ltd. Co., LLC"
+	title: "Dominion Day"
+	settings: [
+		{
+			settings: {
+				background: "#000000"
+				caret: "#A3FFA6"
+				foreground: "#B9ADD7"
+				invisibles: "#461560"
+				line_highlight: "#18041A"
+				selection: "#A3FFA6"
+			}
+		}
+		{
+			title: "              Dominion Day"
+			scope: "absolutely none"
+			settings: {
+				background: "#2B093C"
+				font_style: ""
+				foreground: "#83529D"
+			}
+		}
+		{
+			title: "  a uniquely harmonious theme for folks"
+			scope: "absolutely none"
+			settings: {
+				background: "#2B093C"
+				font_style: ""
+				foreground: "#83529D"
+			}
+		}
+		{
+			title: "     who don't work in bright rooms"
+			scope: "absolutely none"
+			settings: {
+				background: "#2B093C"
+				foreground: "#83529D"
+			}
+		}
+		{
+			title: "          http://www.khiltd.com"
+			scope: "absolutely none"
+			settings: {
+				background: "#2B093C"
+				foreground: "#83529D"
+			}
+		}
+		{
+			title: "Keyword"
+			scope: "keyword - keyword.operator, keyword.operator.logical"
+			settings: {
+				font_style: ""
+				foreground: "#5B55FE"
+			}
+		}
+		{
+			title: "Storage"
+			scope: "storage"
+			settings: {
+				font_style: ""
+				foreground: "#5B55FE"
+			}
+		}
+		{
+			title: "Comment"
+			scope: "comment, string.quoted.double.block.python"
+			settings: {
+				font_style: ""
+				foreground: "#554D9D"
+			}
+		}
+		{
+			title: "String"
+			scope: "string"
+			settings: {
+				foreground: "#83529D"
+			}
+		}
+		{
+			title: "Constant"
+			scope: "constant, variable.other.constant.ruby"
+			settings: {
+				font_style: ""
+				foreground: "#B36FD6"
+			}
+		}
+		{
+			title: "Function"
+			scope: "entity.name.function, meta.function-call"
+			settings: {
+				font_style: ""
+				foreground: "#971BA1"
+			}
+		}
+		{
+			title: "Support"
+			scope: "support"
+			settings: {
+				font_style: ""
+				foreground: "#971BA1"
+			}
+		}
+		{
+			title: "Entity"
+			scope: "entity"
+			settings: {
+				font_style: ""
+				foreground: "#B36FD6"
+			}
+		}
+		{
+			title: "Variable"
+			scope: "variable.parameter, variable.other"
+			settings: {
+				foreground: "#5D935D"
+			}
+		}
+		{
+			title: "Invalid"
+			scope: "invalid"
+			settings: {
+				background: "#FF00002E"
+				foreground: "#A3FFA6"
+			}
+		}
+		{
+			title: "Operators"
+			scope: "keyword.operator"
+			settings: {
+				font_style: ""
+				foreground: "#A5A4C5"
+			}
+		}
+		{
+			title: "Python Magic Variables"
+			scope: "support.variable.magic.python"
+			settings: {
+				foreground: "#B36FD6"
+			}
+		}
+		{
+			title: "Python Function Args"
+			scope: "variable.parameter.function.python, meta.function-call.arguments.python"
+			settings: {
+				font_style: ""
+				foreground: "#D4A5F3"
+			}
+		}
+		{
+			title: "Python Parenthesis"
+			scope: "punctuation.definition.arguments.begin.python, punctuation.definition.arguments.end.python"
+			settings: {
+				font_style: ""
+				foreground: "#B9ADD7"
+			}
+		}
+		{
+			title: "Python Function Decorators"
+			scope: "meta.function.decorator.python, entity.name.function.decorator.python, meta.function.decorator.arguments.python"
+			settings: {
+				foreground: "#5D935D"
+			}
+		}
+		{
+			title: "Ruby Function Args"
+			scope: "variable.parameter.function.ruby"
+			settings: {
+				font_style: ""
+				foreground: "#B9ADD7"
+			}
+		}
+		{
+			title: "Ruby Global"
+			scope: "variable.other.readwrite.global.ruby"
+			settings: {
+				font_style: ""
+				foreground: "#651E8A"
+			}
+		}
+		{
+			title: "Ruby Class Variables"
+			scope: "variable.other.readwrite.class.ruby"
+			settings: {
+				font_style: ""
+				foreground: "#B36FD6"
+			}
+		}
+		{
+			title: "Ruby Instance Variables"
+			scope: "variable.other.readwrite.instance.ruby"
+			settings: {
+				font_style: ""
+				foreground: "#C5A1D7"
+			}
+		}
+		{
+			title: "Generic Tag names"
+			scope: "entity.name.tag, punctuation.definition.tag"
+			settings: {
+				font_style: ""
+				foreground: "#471062"
+			}
+		}
+		{
+			title: "Generic Tag attributes"
+			scope: "entity.other.attribute-name, meta.tag.any.html"
+			settings: {
+				font_style: ""
+				foreground: "#65158F"
+			}
+		}
+		{
+			title: "HTML Block Tags"
+			scope: "meta.tag.block.any.html, entity.name.tag.block.any.html"
+			settings: {
+				font_style: ""
+				foreground: "#471062"
+			}
+		}
+		{
+			title: "HTML Structure Tags"
+			scope: "meta.tag.structure.any.html punctuation.definition.tag.html, meta.tag.structure.any.html, entity.name.tag.structure.any.html"
+			settings: {
+				font_style: ""
+				foreground: "#83529D"
+			}
+		}
+		{
+			title: "HTML Doctype"
+			scope: "meta.tag.sgml.html, entity.name.tag.doctype.html, string.quoted.double.doctype.identifiers-and-DTDs.html"
+			settings: {
+				font_style: ""
+				foreground: "#B36FD6"
+			}
+		}
+		{
+			title: "HTML Inline Tags"
+			scope: "meta.tag.inline.any.html, meta.tag.inline.any.html punctuation.definition.tag.html, meta.tag.inline.any.html entity.other.attribute-name.html, entity.name.tag.inline.any.html"
+			settings: {
+				font_style: ""
+				foreground: "#971BA1"
+			}
+		}
+		{
+			title: "HTML Inline Tag Attributes"
+			scope: "meta.tag.inline.any.html entity.other.attribute-name.html"
+			settings: {
+				font_style: ""
+				foreground: "#65158F"
+			}
+		}
+		{
+			title: "HTML Script Tags"
+			scope: "source.js.embedded.html punctuation.definition.tag.html, entity.name.tag.script"
+			settings: {
+				foreground: "#971BA1"
+			}
+		}
+		{
+			title: "PHP Tags"
+			scope: "punctuation.definition.embedded.begin.php, meta.consecutive-tags.php, punctuation.definition.embedded.end.php"
+			settings: {
+				font_style: ""
+				foreground: "#971BA1"
+			}
+		}
+		{
+			title: "PHP Globals"
+			scope: "variable.other.global.php, variable.other.global.safer.php"
+			settings: {
+				font_style: ""
+				foreground: "#971BA1"
+			}
+		}
+		{
+			title: "PHP Variable Definition"
+			scope: "punctuation.definition.variable.php"
+			settings: {
+				font_style: ""
+				foreground: "#B36FD6"
+			}
+		}
+		{
+			title: "PHP Variables"
+			scope: "variable.other.php"
+			settings: {
+				font_style: ""
+				foreground: "#C5A1D7"
+			}
+		}
+		{
+			title: "JavaScript Keywords"
+			scope: "variable.language.js, keyword.operator.new.js"
+			settings: {
+				font_style: ""
+				foreground: "#5450FF"
+			}
+		}
+		{
+			title: "CSS Selectors"
+			scope: "entity.name.tag.css"
+			settings: {
+				font_style: ""
+				foreground: "#971BA1"
+			}
+		}
+		{
+			title: "CSS Class & ID Selectors"
+			scope: "entity.other.attribute-name.class.css, entity.other.attribute-name.id.css, entity.other.attribute-name.attribute.css"
+			settings: {
+				font_style: ""
+				foreground: "#651E8A"
+			}
+		}
+		{
+			title: "CSS Properties"
+			scope: "support.type.property-name.css"
+			settings: {
+				font_style: ""
+				foreground: "#83529D"
+			}
+		}
+		{
+			title: "CSS Combinators & Attribute Selectors"
+			scope: "punctuation.definition.entity.css, meta.selector.css"
+			settings: {
+				font_style: ""
+				foreground: "#B36FD6"
+			}
+		}
+		{
+			title: "CSS Units"
+			scope: "keyword.other.unit.css"
+			settings: {
+				foreground: "#B36FD6"
+			}
+		}
+		{
+			title: "CSS URLs"
+			scope: "variable.parameter.url.css"
+			settings: {
+				foreground: "#B36FD6"
+			}
+		}
+		{
+			title: "CSS Constants"
+			scope: "constant.numeric.css, constant.other.color.rgb-value.css, variable.parameter.misc.css"
+			settings: {
+				font_style: ""
+				foreground: "#C5A1D7"
+			}
+		}
+		{
+			title: "CSS Punctuation"
+			scope: "meta.property-value.css, meta.property-list.css, source.css, string.quoted.double.attribute-value.css"
+			settings: {
+				font_style: ""
+				foreground: "#C5A1D7"
+			}
+		}
+		{
+			title: "CSS Pseudoelements & Pseudoclasses"
+			scope: "entity.other.attribute-name.pseudo-element.css, entity.other.attribute-name.pseudo-class.css"
+			settings: {
+				foreground: "#5D935D"
+			}
+		}
+	]
+}

@@ -1,0 +1,168 @@
+{
+	author: "David Heinemeier Hansson"
+	title: "All Hallow's Eve Custom"
+	settings: [
+		{
+			settings: {
+				background: "#131313"
+				caret: "#FFFFFF"
+				foreground: "#FFFFFF"
+				invisibles: "#404040"
+				line_highlight: "#333300"
+				selection: "#73597EE0"
+			}
+		}
+		{
+			title: "Text base"
+			scope: "text"
+			settings: {
+				foreground: "#FFFFFF"
+			}
+		}
+		{
+			title: "Source base"
+			scope: "source"
+			settings: {
+				foreground: "#FFFFFF"
+			}
+		}
+		{
+			title: "Comment"
+			scope: "comment"
+			settings: {
+				foreground: "#9933CC"
+			}
+		}
+		{
+			title: "Constant"
+			scope: "constant"
+			settings: {
+				foreground: "#3387CC"
+			}
+		}
+		{
+			title: "Keyword"
+			scope: "keyword"
+			settings: {
+				font_style: ""
+				foreground: "#CC7833"
+			}
+		}
+		{
+			title: "Pre-processor Line"
+			scope: "meta.preprocessor.c"
+			settings: {
+				font_style: ""
+				foreground: "#D0D0FF"
+			}
+		}
+		{
+			title: "Pre-processor Directive"
+			scope: "keyword.control.import"
+			settings: {
+				font_style: ""
+			}
+		}
+		{
+			title: "Function name"
+			scope: "entity.name.function"
+			settings: {
+				font_style: ""
+			}
+		}
+		{
+			title: "Function argument"
+			scope: "variable.parameter"
+			settings: {
+				font_style: "italic"
+			}
+		}
+		{
+			title: "Block comment"
+			scope: "source comment.block"
+			settings: {
+				background: "#9B9B9B"
+				foreground: "#FFFFFF"
+			}
+		}
+		{
+			title: "String"
+			scope: "string"
+			settings: {
+				foreground: "#66CC33"
+			}
+		}
+		{
+			title: "String escapes"
+			scope: "string constant.character.escape"
+			settings: {
+				foreground: "#AAAAAA"
+			}
+		}
+		{
+			title: "String (executed)"
+			scope: "string.interpolated"
+			settings: {
+				background: "#CCCC33"
+				foreground: "#000000"
+			}
+		}
+		{
+			title: "Regular expression"
+			scope: "string.regexp"
+			settings: {
+				foreground: "#CCCC33"
+			}
+		}
+		{
+			title: "String (literal)"
+			scope: "string.literal"
+			settings: {
+				foreground: "#CCCC33"
+			}
+		}
+		{
+			title: "String escapes (executed)"
+			scope: "string.interpolated constant.character.escape"
+			settings: {
+				foreground: "#555555"
+			}
+		}
+		{
+			title: "Type name"
+			scope: "entity.name.type"
+			settings: {
+				font_style: "underline"
+			}
+		}
+		{
+			title: "Class inheritance"
+			scope: "entity.other.inherited-class"
+			settings: {
+				font_style: "italic underline"
+			}
+		}
+		{
+			title: "Tag name"
+			scope: "entity.name.tag"
+			settings: {
+				font_style: "underline"
+			}
+		}
+		{
+			title: "Tag attribute"
+			scope: "entity.other.attribute-name"
+			settings: {
+				font_style: ""
+			}
+		}
+		{
+			title: "Support function"
+			scope: "support.function"
+			settings: {
+				font_style: ""
+				foreground: "#C83730"
+			}
+		}
+	]
+}

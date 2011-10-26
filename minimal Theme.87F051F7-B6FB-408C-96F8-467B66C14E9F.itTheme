@@ -1,0 +1,340 @@
+{
+	comment: "Created by minimal design, inspired by GANDI website"
+	title: "minimal Theme"
+	settings: [
+		{
+			settings: {
+				background: "#302D26"
+				caret: "#FF9900"
+				foreground: "#FCFFE0"
+				invisibles: "#FFB16F52"
+				line_highlight: "#232826"
+				selection: "#180024"
+			}
+		}
+		{
+			title: "Constant"
+			scope: "constant"
+			settings: {
+				font_style: ""
+				foreground: "#D27518C2"
+			}
+		}
+		{
+			title: "Entity"
+			scope: "entity"
+			settings: {
+				font_style: ""
+				foreground: "#A89100B5"
+			}
+		}
+		{
+			title: "Entity Other"
+			scope: "entity.other"
+			settings: {
+				foreground: "#BA6912"
+			}
+		}
+		{
+			title: "Keyword"
+			scope: "keyword"
+			settings: {
+				font_style: ""
+				foreground: "#949C8B"
+			}
+		}
+		{
+			title: "Storage"
+			scope: "storage"
+			settings: {
+				font_style: ""
+				foreground: "#FFEE80"
+			}
+		}
+		{
+			title: "String"
+			scope: "string -string.unquoted.old-plist -string.unquoted.heredoc, string.unquoted.heredoc string"
+			settings: {
+				foreground: "#C7A4A1B5"
+			}
+		}
+		{
+			title: "Comment"
+			scope: "comment"
+			settings: {
+				font_style: "italic"
+				foreground: "#706D5B"
+			}
+		}
+		{
+			title: "Support"
+			scope: "support"
+			settings: {
+				font_style: ""
+				foreground: "#9FC28A"
+			}
+		}
+		{
+			title: "Variable"
+			scope: "variable"
+			settings: {
+				font_style: ""
+				foreground: "#D1A796"
+			}
+		}
+		{
+			title: "Lang Variable"
+			scope: "variable.language"
+			settings: {
+				font_style: ""
+				foreground: "#FF80E1"
+			}
+		}
+		{
+			title: "Function Call"
+			scope: "meta.function-call"
+			settings: {
+				foreground: "#FFEE80"
+			}
+		}
+		{
+			title: "Invalid"
+			scope: "invalid"
+			settings: {
+				background: "#800F00"
+				foreground: "#F8F8F8"
+			}
+		}
+		{
+			title: "Embedded Source"
+			scope: "text source, string.unquoted.heredoc, source source"
+			settings: {
+				background: "#24231D"
+				font_style: ""
+				foreground: "#D9D59F"
+			}
+		}
+		{
+			title: "Entity inherited-class"
+			scope: "entity.other.inherited-class"
+			settings: {
+				font_style: ""
+				foreground: "#7EFCFF"
+			}
+		}
+		{
+			title: "String embedded-source"
+			scope: "string.quoted source"
+			settings: {
+				font_style: ""
+				foreground: "#439740BA"
+			}
+		}
+		{
+			title: "String constant"
+			scope: "string constant"
+			settings: {
+				foreground: "#60DB5DBA"
+			}
+		}
+		{
+			title: "String.regexp"
+			scope: "string.regexp"
+			settings: {
+				foreground: "#7DFFC0A6"
+			}
+		}
+		{
+			title: "String variable"
+			scope: "string variable"
+			settings: {
+				font_style: ""
+				foreground: "#B8B960"
+			}
+		}
+		{
+			title: "Support.function"
+			scope: "support.function"
+			settings: {
+				font_style: ""
+				foreground: "#85873A"
+			}
+		}
+		{
+			title: "Support.constant"
+			scope: "support.constant"
+			settings: {
+				font_style: ""
+				foreground: "#C27E66"
+			}
+		}
+		{
+			title: "Exception"
+			scope: "support.class.exception"
+			settings: {
+				foreground: "#FF1E00"
+			}
+		}
+		{
+			title: "C/C++ Preprocessor Line"
+			scope: "meta.preprocessor.c"
+			settings: {
+				foreground: "#8996A8"
+			}
+		}
+		{
+			title: "C/C++ Preprocessor Directive"
+			scope: "meta.preprocessor.c keyword"
+			settings: {
+				foreground: "#AFC4DB"
+			}
+		}
+		{
+			title: "Doctype/XML Processing"
+			scope: "meta.sgml.html meta.doctype, meta.sgml.html meta.doctype entity, meta.sgml.html meta.doctype string, meta.xml-processing, meta.xml-processing entity, meta.xml-processing string"
+			settings: {
+				foreground: "#73817D"
+			}
+		}
+		{
+			title: "Meta.tag.A"
+			scope: "meta.tag, meta.tag entity"
+			settings: {
+				foreground: "#BABD9C"
+			}
+		}
+		{
+			title: "css tag-name"
+			scope: "meta.selector.css entity.name.tag"
+			settings: {
+				foreground: "#99A190"
+			}
+		}
+		{
+			title: "css#id"
+			scope: "meta.selector.css entity.other.attribute-name.id"
+			settings: {
+				foreground: "#CC8844"
+			}
+		}
+		{
+			title: "css.class"
+			scope: "meta.selector.css entity.other.attribute-name.class"
+			settings: {
+				foreground: "#CFB958"
+			}
+		}
+		{
+			title: "css property-name:"
+			scope: "support.type.property-name.css"
+			settings: {
+				foreground: "#E0DDAD"
+			}
+		}
+		{
+			title: "css property-value;"
+			scope: "meta.property-group support.constant.property-value.css, meta.property-value support.constant.property-value.css"
+			settings: {
+				foreground: "#AEB14B"
+			}
+		}
+		{
+			title: "css @at-rule"
+			scope: "meta.preprocessor.at-rule keyword.control.at-rule"
+			settings: {
+				foreground: "#FFB010"
+			}
+		}
+		{
+			title: "css additional-constants"
+			scope: "meta.property-value support.constant.named-color.css, meta.property-value constant"
+			settings: {
+				foreground: "#999179"
+			}
+		}
+		{
+			title: "css constructor.argument"
+			scope: "meta.constructor.argument.css"
+			settings: {
+				foreground: "#EB939A"
+			}
+		}
+		{
+			title: "diff.header"
+			scope: "meta.diff, meta.diff.header"
+			settings: {
+				background: "#000E1A"
+				font_style: ""
+				foreground: "#F8F8F8"
+			}
+		}
+		{
+			title: "diff.deleted"
+			scope: "markup.deleted"
+			settings: {
+				background: "#800F00"
+				foreground: "#F8F8F8"
+			}
+		}
+		{
+			title: "diff.changed"
+			scope: "markup.changed"
+			settings: {
+				background: "#806F00"
+				foreground: "#F8F8F8"
+			}
+		}
+		{
+			title: "diff.inserted"
+			scope: "markup.inserted"
+			settings: {
+				background: "#228000"
+				foreground: "#F8F8F8"
+			}
+		}
+		{
+			title: "Raw Markup"
+			scope: "markup.raw"
+			settings: {
+				background: "#8FDDF630"
+			}
+		}
+		{
+			title: "Block Quote"
+			scope: "markup.quote"
+			settings: {
+				background: "#005BAA"
+			}
+		}
+		{
+			title: "List"
+			scope: "markup.list"
+			settings: {
+				background: "#0F0040"
+			}
+		}
+		{
+			title: "Bold Markup"
+			scope: "markup.bold"
+			settings: {
+				font_style: "bold"
+				foreground: "#9D80FF"
+			}
+		}
+		{
+			title: "Italic Markup"
+			scope: "markup.italic"
+			settings: {
+				font_style: "italic"
+				foreground: "#80FFBB"
+			}
+		}
+		{
+			title: "Heading Markup"
+			scope: "markup.heading"
+			settings: {
+				font_style: "bold"
+			}
+		}
+	]
+}

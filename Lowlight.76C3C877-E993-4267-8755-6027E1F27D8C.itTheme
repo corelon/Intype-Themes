@@ -1,0 +1,373 @@
+{
+	author: "Everson Santos Araujo"
+	comment: "NoBIOS - http://nobios.por.com.br/"
+	title: "Lowlight"
+	settings: [
+		{
+			settings: {
+				background: "#1E1E1E"
+				caret: "#595959"
+				foreground: "#CACACA"
+				invisibles: "#65642666"
+				line_highlight: "#00000014"
+				selection: "#68729B29"
+			}
+		}
+		{
+			title: "Comment"
+			scope: "comment"
+			settings: {
+				background: "#112B0A1A"
+				font_style: "italic"
+				foreground: "#3C5636"
+			}
+		}
+		{
+			title: "Constant"
+			scope: "constant"
+			settings: {
+				foreground: "#E66C29"
+			}
+		}
+		{
+			title: "Entity"
+			scope: "entity"
+			settings: {
+				font_style: ""
+				foreground: "#2EB43B"
+			}
+		}
+		{
+			title: "Keyword"
+			scope: "keyword"
+			settings: {
+				font_style: ""
+				foreground: "#8F8D17"
+			}
+		}
+		{
+			title: "Operator"
+			scope: "keyword.operator"
+			settings: {
+				font_style: "bold"
+				foreground: "#7AFF79"
+			}
+		}
+		{
+			title: "Storage"
+			scope: "storage"
+			settings: {
+				font_style: ""
+				foreground: "#7A925F"
+			}
+		}
+		{
+			title: "String"
+			scope: "string"
+			settings: {
+				font_style: ""
+				foreground: "#A57C5C"
+			}
+		}
+		{
+			title: "Support"
+			scope: "support"
+			settings: {
+				font_style: ""
+				foreground: "#2F8996"
+			}
+		}
+		{
+			title: "Variable"
+			scope: "variable"
+			settings: {
+				font_style: "bold"
+				foreground: "#77ACB0"
+			}
+		}
+		{
+			title: "Embedded PHP"
+			scope: "source.php"
+			settings: {
+				background: "#15151540"
+				font_style: ""
+			}
+		}
+		{
+			title: "Embedded Source"
+			scope: "text source"
+			settings: {
+				background: "#FFFFFF0A"
+				font_style: ""
+			}
+		}
+		{
+			title: "Embedded Ruby"
+			scope: "text.html.ruby source"
+			settings: {
+				background: "#9898980A"
+				font_style: ""
+			}
+		}
+		{
+			title: "inherited-class"
+			scope: "entity.other.inherited-class"
+			settings: {
+				font_style: "bold italic"
+				foreground: "#9B5C2E"
+			}
+		}
+		{
+			title: "Embedded source"
+			scope: "string source"
+			settings: {
+				font_style: ""
+				foreground: "#F5E76B"
+			}
+		}
+		{
+			title: "Constant"
+			scope: "string constant"
+			settings: {
+				font_style: ""
+				foreground: "#A5974E"
+			}
+		}
+		{
+			title: "Regexp"
+			scope: "string.regexp"
+			settings: {
+				foreground: "#E3965E"
+			}
+		}
+		{
+			title: "Regexp special"
+			scope: "string.regexp constant.character.escape, string.regexp source.ruby.embedded, string.regexp string.regexp.arbitrary-repitition"
+			settings: {
+				foreground: "#C57630"
+			}
+		}
+		{
+			title: "String variable"
+			scope: "string variable"
+			settings: {
+				foreground: "#4D769A"
+			}
+		}
+		{
+			title: "PHP Safe global"
+			scope: "variable.other.global.safer.php"
+			settings: {
+				foreground: "#4A7952"
+			}
+		}
+		{
+			title: "Function"
+			scope: "support.function"
+			settings: {
+				font_style: ""
+				foreground: "#EDD34D"
+			}
+		}
+		{
+			title: "Constant"
+			scope: "support.constant"
+			settings: {
+				font_style: ""
+				foreground: "#959630"
+			}
+		}
+		{
+			title: "Braces"
+			scope: "meta.group.braces.round punctuation.section.scope, meta.group.braces.round meta.delimiter.object.comma, meta.brace.round"
+			settings: {
+				foreground: "#C1C273"
+			}
+		}
+		{
+			title: "Array"
+			scope: "meta.group.braces.square punctuation.section.scope, meta.group.braces.square meta.delimiter.object.comma, meta.brace.square, punctuation.separator.array, punctuation.section.array"
+			settings: {
+				foreground: "#C8CA67"
+			}
+		}
+		{
+			title: "C preprocessor"
+			scope: "meta.preprocessor.c"
+			settings: {
+				foreground: "#8996A8"
+			}
+		}
+		{
+			title: "C preprocessor directive"
+			scope: "meta.preprocessor.c keyword"
+			settings: {
+				foreground: "#AFC4DB"
+			}
+		}
+		{
+			title: "Doctype/XML Processing"
+			scope: "meta.tag.sgml.doctype, meta.tag.sgml.doctype entity, meta.tag.sgml.doctype string, meta.tag.preprocessor.xml, meta.tag.preprocessor.xml entity, meta.tag.preprocessor.xml string"
+			settings: {
+				foreground: "#494949"
+			}
+		}
+		{
+			title: "Tag attribute-name"
+			scope: "entity.other.attribute-name, meta.attribute.smarty"
+			settings: {
+				foreground: "#B06520"
+			}
+		}
+		{
+			title: "Tag name"
+			scope: "entity.name.tag"
+			settings: {
+				font_style: ""
+				foreground: "#BAA827"
+			}
+		}
+		{
+			title: "Inline tag"
+			scope: "declaration.tag.inline, declaration.tag.inline entity, source entity.name.tag, source entity.other.attribute-name, meta.tag.inline, meta.tag.inline entity"
+			settings: {
+				foreground: "#54724B"
+			}
+		}
+		{
+			title: "Meta tag"
+			scope: "declaration.tag, meta.tag,declaration.tag.entity, meta.tag.entity"
+			settings: {
+				foreground: "#495573"
+			}
+		}
+		{
+			title: "css tag-name"
+			scope: "meta.selector.css entity.name.tag"
+			settings: {
+				foreground: "#E98662"
+			}
+		}
+		{
+			title: "css pseudo"
+			scope: "meta.selector.css entity.other.attribute-name.pseudo-class.css,meta.selector.css entity.other.attribute-name.pseudo-element.css"
+			settings: {
+				foreground: "#9D7648"
+			}
+		}
+		{
+			title: "css id"
+			scope: "meta.selector.css entity.other.attribute-name.id"
+			settings: {
+				foreground: "#975B36"
+			}
+		}
+		{
+			title: "css class"
+			scope: "meta.selector.css entity.other.attribute-name.class"
+			settings: {
+				foreground: "#976A1C"
+			}
+		}
+		{
+			title: "css property-name"
+			scope: "support.type.property-name.css"
+			settings: {
+				foreground: "#517192"
+			}
+		}
+		{
+			title: "css property-value"
+			scope: "meta.property-group support.constant.property-value.css, meta.property-value support.constant.property-value.css"
+			settings: {
+				foreground: "#979D3D"
+			}
+		}
+		{
+			title: "css @"
+			scope: "meta.preprocessor.at-rule keyword.control.at-rule"
+			settings: {
+				foreground: "#8693A5"
+			}
+		}
+		{
+			title: "css constants"
+			scope: "meta.property-value support.constant.named-color.css, meta.property-value constant"
+			settings: {
+				foreground: "#C6C857"
+			}
+		}
+		{
+			title: "css constructor"
+			scope: "meta.constructor.argument.css"
+			settings: {
+				foreground: "#C1A25F"
+			}
+		}
+		{
+			title: "diff header"
+			scope: "meta.diff, meta.diff.header, meta.separator"
+			settings: {
+				foreground: "#5AA2A0"
+			}
+		}
+		{
+			title: "diff deleted"
+			scope: "markup.deleted"
+			settings: {
+				background: "#2A0205"
+				font_style: "italic"
+				foreground: "#F8F8F8"
+			}
+		}
+		{
+			title: "diff changed"
+			scope: "markup.changed"
+			settings: {
+				background: "#2B2309"
+				font_style: "bold"
+				foreground: "#F8F8F8"
+			}
+		}
+		{
+			title: "diff inserted"
+			scope: "markup.inserted"
+			settings: {
+				background: "#121D0C"
+				font_style: "bold"
+				foreground: "#F8F8F8"
+			}
+		}
+		{
+			title: "mark list"
+			scope: "markup.list"
+			settings: {
+				foreground: "#F9EB77"
+			}
+		}
+		{
+			title: "mark head"
+			scope: "markup.heading"
+			settings: {
+				foreground: "#CF6A4C"
+			}
+		}
+		{
+			title: "Invalid Deprecated"
+			scope: "invalid.deprecated"
+			settings: {
+				font_style: "underline"
+				foreground: "#D24346"
+			}
+		}
+		{
+			title: "Invalid Illegal"
+			scope: "invalid.illegal"
+			settings: {
+				background: "#351D18"
+				font_style: "underline"
+				foreground: "#A2A2A2"
+			}
+		}
+	]
+}
